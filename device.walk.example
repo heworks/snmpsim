@@ -1,0 +1,4057 @@
+.1.3.6.1.2.1.1.1.0 = STRING: "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.5(3)M2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Sun 07-Feb-16 03:45 by prod_rel_team"
+.1.3.6.1.2.1.1.2.0 = OID: .1.3.6.1.4.1.9.1.1044
+.1.3.6.1.2.1.1.3.0 = Timeticks: (69203494) 8 days, 0:13:54.94
+.1.3.6.1.2.1.1.4.0 = ""
+.1.3.6.1.2.1.1.6.0 = ""
+.1.3.6.1.2.1.1.7.0 = INTEGER: 78
+.1.3.6.1.2.1.1.8.0 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.2.1 = OID: .1.3.6.1.4.1.9.7.129
+.1.3.6.1.2.1.1.9.1.2.2 = OID: .1.3.6.1.4.1.9.7.115
+.1.3.6.1.2.1.1.9.1.2.3 = OID: .1.3.6.1.4.1.9.7.265
+.1.3.6.1.2.1.1.9.1.2.4 = OID: .1.3.6.1.4.1.9.7.112
+.1.3.6.1.2.1.1.9.1.2.5 = OID: .1.3.6.1.4.1.9.7.106
+.1.3.6.1.2.1.1.9.1.2.6 = OID: .1.3.6.1.4.1.9.7.47
+.1.3.6.1.2.1.1.9.1.2.7 = OID: .1.3.6.1.4.1.9.7.122
+.1.3.6.1.2.1.1.9.1.2.8 = OID: .1.3.6.1.4.1.9.7.37
+.1.3.6.1.2.1.1.9.1.2.9 = OID: .1.3.6.1.4.1.9.7.92
+.1.3.6.1.2.1.1.9.1.2.10 = OID: .1.3.6.1.4.1.9.7.53
+.1.3.6.1.2.1.1.9.1.2.11 = OID: .1.3.6.1.4.1.9.7.54
+.1.3.6.1.2.1.1.9.1.2.12 = OID: .1.3.6.1.4.1.9.7.52
+.1.3.6.1.2.1.1.9.1.2.13 = OID: .1.3.6.1.4.1.9.7.93
+.1.3.6.1.2.1.1.9.1.2.14 = OID: .1.3.6.1.4.1.9.7.186
+.1.3.6.1.2.1.1.9.1.2.15 = OID: .1.3.6.1.4.1.9.7.128
+.1.3.6.1.2.1.1.9.1.2.16 = OID: .1.3.6.1.4.1.9.7.425
+.1.3.6.1.2.1.1.9.1.2.17 = OID: .1.3.6.1.4.1.9.7.517
+.1.3.6.1.2.1.1.9.1.2.18 = OID: .1.3.6.1.4.1.9.7.516
+.1.3.6.1.2.1.1.9.1.2.19 = OID: .1.3.6.1.4.1.9.7.518
+.1.3.6.1.2.1.1.9.1.2.20 = OID: .1.3.6.1.4.1.9.7.267
+.1.3.6.1.2.1.1.9.1.2.21 = OID: .1.3.6.1.4.1.9.7.273
+.1.3.6.1.2.1.1.9.1.2.22 = OID: .1.3.6.1.4.1.9.7.265
+.1.3.6.1.2.1.1.9.1.2.23 = OID: .1.3.6.1.4.1.9.7.121
+.1.3.6.1.2.1.1.9.1.2.24 = OID: .1.3.6.1.4.1.9.7.44
+.1.3.6.1.2.1.1.9.1.2.25 = OID: .1.3.6.1.4.1.9.7.99999
+.1.3.6.1.2.1.1.9.1.2.26 = OID: .1.3.6.1.4.1.9.7.202
+.1.3.6.1.2.1.1.9.1.2.27 = OID: .1.3.6.1.4.1.9.7.264
+.1.3.6.1.2.1.1.9.1.2.28 = OID: .1.3.6.1.4.1.9.7.33
+.1.3.6.1.2.1.1.9.1.2.29 = OID: .1.3.6.1.4.1.9.7.492
+.1.3.6.1.2.1.1.9.1.2.30 = OID: .1.3.6.1.4.1.9.7.130
+.1.3.6.1.2.1.1.9.1.2.31 = OID: .1.3.6.1.4.1.9.7.116
+.1.3.6.1.2.1.1.9.1.2.32 = OID: .1.3.6.1.4.1.9.7.91
+.1.3.6.1.2.1.1.9.1.2.33 = OID: .1.3.6.1.4.1.9.7.999
+.1.3.6.1.2.1.1.9.1.2.34 = OID: .1.3.6.1.4.1.9.7.212
+.1.3.6.1.2.1.1.9.1.2.35 = OID: .1.3.6.1.4.1.9.7.547
+.1.3.6.1.2.1.1.9.1.2.36 = OID: .1.3.6.1.4.1.9.7.126
+.1.3.6.1.2.1.1.9.1.2.37 = OID: .1.3.6.1.4.1.9.7.127
+.1.3.6.1.2.1.1.9.1.2.38 = OID: .1.3.6.1.4.1.9.7.64
+.1.3.6.1.2.1.1.9.1.2.39 = OID: .1.3.6.1.4.1.9.7.123
+.1.3.6.1.2.1.1.9.1.2.40 = OID: .1.3.6.1.4.1.9.7.120
+.1.3.6.1.2.1.1.9.1.2.41 = OID: .1.3.6.1.4.1.9.7.124
+.1.3.6.1.2.1.1.9.1.2.42 = OID: .1.3.6.1.4.1.9.7.218
+.1.3.6.1.2.1.1.9.1.2.43 = OID: .1.3.6.1.4.1.9.7.119
+.1.3.6.1.2.1.1.9.1.2.44 = OID: .1.3.6.1.4.1.9.7.125
+.1.3.6.1.2.1.1.9.1.2.45 = OID: .1.3.6.1.4.1.9.7.524
+.1.3.6.1.2.1.1.9.1.2.46 = OID: .1.3.6.1.4.1.9.7.45
+.1.3.6.1.2.1.1.9.1.2.47 = OID: .1.3.6.1.4.1.9.7.605
+.1.3.6.1.2.1.1.9.1.2.48 = OID: .1.3.6.1.4.1.9.7.46
+.1.3.6.1.2.1.1.9.1.2.49 = OID: .1.3.6.1.4.1.9.7.557
+.1.3.6.1.2.1.1.9.1.2.50 = OID: .1.3.6.1.4.1.9.7.604
+.1.3.6.1.2.1.1.9.1.2.51 = OID: .1.3.6.1.4.1.9.7.203
+.1.3.6.1.2.1.1.9.1.2.52 = OID: .1.3.6.1.4.1.9.7.201
+.1.3.6.1.2.1.1.9.1.2.53 = OID: .1.3.6.1.4.1.9.7.1
+.1.3.6.1.2.1.1.9.1.2.54 = OID: .1.3.6.1.4.1.9.7.202
+.1.3.6.1.2.1.1.9.1.2.55 = OID: .1.3.6.1.4.1.9.7.440
+.1.3.6.1.2.1.1.9.1.2.56 = OID: .1.3.6.1.4.1.9.7.463
+.1.3.6.1.2.1.1.9.1.2.57 = OID: .1.3.6.1.4.1.9.7.16
+.1.3.6.1.2.1.1.9.1.2.58 = OID: .1.3.6.1.4.1.9.7.17
+.1.3.6.1.2.1.1.9.1.2.59 = OID: .1.3.6.1.4.1.9.7.36
+.1.3.6.1.2.1.1.9.1.2.60 = OID: .1.3.6.1.4.1.9.7.447
+.1.3.6.1.2.1.1.9.1.2.61 = OID: .1.3.6.1.4.1.9.7.548
+.1.3.6.1.2.1.1.9.1.2.62 = OID: .1.3.6.1.4.1.9.7.256
+.1.3.6.1.2.1.1.9.1.2.63 = OID: .1.3.6.1.4.1.9.7.101
+.1.3.6.1.2.1.1.9.1.2.64 = OID: .1.3.6.1.4.1.9.7.105
+.1.3.6.1.2.1.1.9.1.2.65 = OID: .1.3.6.1.4.1.9.7.108
+.1.3.6.1.2.1.1.9.1.2.66 = OID: .1.3.6.1.4.1.9.7.117
+.1.3.6.1.2.1.1.9.1.2.67 = OID: .1.3.6.1.4.1.9.7.103
+.1.3.6.1.2.1.1.9.1.2.68 = OID: .1.3.6.1.4.1.9.7.107
+.1.3.6.1.2.1.1.9.1.2.69 = OID: .1.3.6.1.4.1.9.7.109
+.1.3.6.1.2.1.1.9.1.2.70 = OID: .1.3.6.1.4.1.9.7.110
+.1.3.6.1.2.1.1.9.1.2.71 = OID: .1.3.6.1.4.1.9.7.111
+.1.3.6.1.2.1.1.9.1.2.72 = OID: .1.3.6.1.4.1.9.7.102
+.1.3.6.1.2.1.1.9.1.2.73 = OID: .1.3.6.1.4.1.9.7.102
+.1.3.6.1.2.1.1.9.1.2.74 = OID: .1.3.6.1.4.1.9.7.120
+.1.3.6.1.2.1.1.9.1.2.75 = OID: .1.3.6.1.4.1.9.7.115
+.1.3.6.1.2.1.1.9.1.2.76 = OID: .1.3.6.1.4.1.9.7.172
+.1.3.6.1.2.1.1.9.1.2.77 = OID: .1.3.6.1.4.1.9.7.28
+.1.3.6.1.2.1.1.9.1.2.78 = OID: .1.3.6.1.4.1.9.7.117
+.1.3.6.1.2.1.1.9.1.2.79 = OID: .1.3.6.1.4.1.9.7.39
+.1.3.6.1.2.1.1.9.1.2.80 = OID: .1.3.6.1.4.1.9.7.113
+.1.3.6.1.2.1.1.9.1.2.81 = OID: .1.3.6.1.4.1.9.7.114
+.1.3.6.1.2.1.1.9.1.2.82 = OID: .1.3.6.1.4.1.9.7.104
+.1.3.6.1.2.1.1.9.1.2.83 = OID: .1.3.6.1.4.1.9.7.26
+.1.3.6.1.2.1.1.9.1.2.84 = OID: .1.3.6.1.4.1.9.7.51
+.1.3.6.1.2.1.1.9.1.2.85 = OID: .1.3.6.1.4.1.9.7.532
+.1.3.6.1.2.1.1.9.1.2.86 = OID: .1.3.6.1.4.1.9.7.118
+.1.3.6.1.2.1.1.9.1.2.87 = OID: .1.3.6.1.4.1.9.7.599
+.1.3.6.1.2.1.1.9.1.2.88 = OID: .1.3.6.1.4.1.9.7.82
+.1.3.6.1.2.1.1.9.1.2.89 = OID: .1.3.6.1.4.1.9.7.83
+.1.3.6.1.2.1.1.9.1.2.90 = OID: .1.3.6.1.4.1.9.7.84
+.1.3.6.1.2.1.1.9.1.2.91 = OID: .1.3.6.1.4.1.9.7.408
+.1.3.6.1.2.1.1.9.1.2.92 = OID: .1.3.6.1.4.1.9.7.409
+.1.3.6.1.2.1.1.9.1.2.93 = OID: .1.3.6.1.4.1.9.7.213
+.1.3.6.1.2.1.1.9.1.2.94 = OID: .1.3.6.1.4.1.9.7.1
+.1.3.6.1.2.1.1.9.1.2.95 = OID: .1.3.6.1.4.1.9.7.2
+.1.3.6.1.2.1.1.9.1.2.96 = OID: .1.3.6.1.4.1.9.7.3
+.1.3.6.1.2.1.1.9.1.2.97 = OID: .1.3.6.1.4.1.9.7.4
+.1.3.6.1.2.1.1.9.1.2.98 = OID: .1.3.6.1.4.1.9.7.5
+.1.3.6.1.2.1.1.9.1.2.99 = OID: .1.3.6.1.4.1.9.7.6
+.1.3.6.1.2.1.1.9.1.2.100 = OID: .1.3.6.1.4.1.9.7.7
+.1.3.6.1.2.1.1.9.1.2.101 = OID: .1.3.6.1.4.1.9.7.8
+.1.3.6.1.2.1.1.9.1.2.102 = OID: .1.3.6.1.4.1.9.7.9
+.1.3.6.1.2.1.1.9.1.2.103 = OID: .1.3.6.1.4.1.9.7.10
+.1.3.6.1.2.1.1.9.1.2.104 = OID: .1.3.6.1.4.1.9.7.11
+.1.3.6.1.2.1.1.9.1.2.105 = OID: .1.3.6.1.4.1.9.7.12
+.1.3.6.1.2.1.1.9.1.2.106 = OID: .1.3.6.1.4.1.9.7.13
+.1.3.6.1.2.1.1.9.1.3.1 = STRING: "Agent capabilities for CISCO-AAA-SERVER-MIB
+ LAST-UPDATED 200001200000Z 
+ciscoAAAServerCapabilityV10R00 AGENT-CAPABILITIES
+ SUPPORTS CISCO-AAA-SERVER-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.2 = STRING: "Agent capabilities for CISCO-ALPS-MIB
+ LAST-UPDATED 9710270000Z 
+ciscoAlpsCapabilityV01R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-ALPS-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.3 = STRING: "The Agent Capabilities for 
+                CISCO-ATM-PVCTRAP-EXTN-MIB.
+ LAST-UPDATED 200211060000Z 
+ciscoATMPVCTRAPExtnCapabilityV12R00S AGENT-CAPABILITIES
+ SUPPORTS CISCO-ATM-PVCTRAP-EXTN-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.4 = STRING: "Agent capabilities for BGP4-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoBgp4CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS BGP4-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.5 = STRING: "Agent capabilities for the BRIDGE-MIB
+ LAST-UPDATED 201012010000Z 
+ciscoBridgeCapabilityV10R02 AGENT-CAPABILITIES
+ SUPPORTS BRIDGE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.6 = STRING: "Agent capabilities for CALL-HISTORY-MIB
+ LAST-UPDATED 9611190000Z 
+ciscoCallHistoryCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-CALL-HISTORY-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.7 = STRING: "The agent capabilities for CISCO-CAS-IF-MIB.
+ LAST-UPDATED 200912040000Z 
+ciscoCasIfCapabilityV5R015 AGENT-CAPABILITIES
+ SUPPORTS CISCO-CAS-IF-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.8 = STRING: "Agent capabilities for the CHANNEL-MIB
+ LAST-UPDATED 9712150000Z 
+ciscoChannelCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CHANNEL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.9 = STRING: "Agent capabilities for the CISCO-CIPCMPC-MIB
+ LAST-UPDATED 9702190000Z 
+ciscoCipCmpcCapabilityV11R03 AGENT-CAPABILITIES
+ SUPPORTS CISCO-CIPCMPC-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.10 = STRING: "Agent capabilities for the CISCO-CIPCSNA-MIB
+ LAST-UPDATED 9504160000Z 
+ciscoCipCsnaCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPCSNA-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.11 = STRING: "Agent capabilities for the CISCO-CIPLAN-MIB
+ LAST-UPDATED 9504160000Z 
+ciscoCipLanCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPLAN-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.12 = STRING: "Agent capabilities for the CISCO-CIPTCPIP-MIB
+ LAST-UPDATED 200207120000Z 
+ciscoCipTcpIpCapabilityV12R02T AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPTCPIP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.13 = STRING: "Agent capabilities for the CISCO-CIPTG-MIB
+ LAST-UPDATED 9901250000Z 
+ciscoCipTgCapabilityV12R03T AGENT-CAPABILITIES
+ SUPPORTS CISCO-CIPTG-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.14 = STRING: "Agent capabilities for 
+                                 CLASS-BASED-QOS-MIB
+ LAST-UPDATED 200301240000Z 
+ciscoCBQosMibCapabilityV123R01T AGENT-CAPABILITIES
+SUPPORTS CISCO-CLASS-BASED-QOS-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.15 = STRING: "This is the Agent Capabilities for
+                         CISCO-CONFIG_COPY-MIB.
+ LAST-UPDATED 200403170000Z 
+ciscoConfigCopyCapabilityV2R0175 AGENT-CAPABILITIES
+SUPPORTS CISCO-CONFIG-COPY-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.16 = STRING: "Agent capabilities for CISCO-DATA-COLLECTION-MIB
+LAST-UPDATED 200501050000Z 
+cDataCollectionCapabilityV12R0S AGENT-CAPABILITIES
+SUPPORTS CISCO-DATA-COLLECTION-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.17 = STRING: "The capabilities description of
+            CISCO-DIAMETER-BASE-PROTOCOL-MIB.
+ LAST-UPDATED 200609061130Z 
+ciscoDiameterBasePCapabilityV12R0409XG AGENT-CAPABILITIES
+ SUPPORTS CISCO-DIAMETER-BASE-PROTOCOL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.18 = STRING: "The capabilities description of
+            CISCO-DIAMETER-CC-AAPL-MIB.
+ LAST-UPDATED 200609060000Z 
+ciscoDiameterCCACapabilityV12R0409XG AGENT-CAPABILITIES
+ SUPPORTS CISCO-DIAMETER-CC-APPL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.19 = STRING: "The capabilities description of
+            CISCO-DIAMETER-SG-MIB.
+ LAST-UPDATED 200609070000Z 
+ciscoDiameterSGCapabilityV12R0409XG AGENT-CAPABILITIES
+ SUPPORTS CISCO-DIAMETER-SG-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.20 = STRING: "Agent capabilities for CISCO-DIST-DIRECTOR-MIB
+ LAST-UPDATED 200204230000Z 
+ciscoDistDirCapabilityV12R02 AGENT-CAPABILITIES
+ SUPPORTS CISCO-DIST-DIRECTOR-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.21 = STRING: "The agent capabilities for DS1-MIB for Cisco Products Series.
+        - ciscoDs1AxsmeCapabilityV3R00 is for
+
+          Enhanced ATM Switch Service Module(AXSM-E), and
+
+          Enhanced Processor Switch Module 1(PXM1E) uplink.
+
+
+
+        - ciscoDs1CapabilityV5R00 is for Voice Switch
+
+          Service Module(VXSM) and MPSM Module Release 5.0.0.
+ LAST-UPDATED 200710310000Z 
+ciscoDs1CapabilityV5R500 AGENT-CAPABILITIES
+ SUPPORTS DS1-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.22 = STRING: "The Agent Capabilities for DS3-MIB(RFC 2496).
+ LAST-UPDATED 200705150000Z 
+ciscoDs3CapabilityV5R100 AGENT-CAPABILITIES
+ SUPPORTS DS3-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.23 = STRING: "The agent capabilities for CISCO-DSP-MGMT-MIB.
+ LAST-UPDATED 201104180000Z 
+ciscoDspMgmtCapabilityV5R400 AGENT-CAPABILITIES
+ SUPPORTS CISCO-DSP-MGMT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.24 = STRING: "Agent capabilities for the DSPU-MIB
+ LAST-UPDATED 9501250000Z 
+ciscoDspuCapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-DSPU-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.25 = STRING: "200701110000Z
+    DESCRIPTION
+
+        
+ LAST-UPDATED 200701110000Z 
+ciscoEmbeddedEventMgrCapabilityV12R02SXH AGENT-CAPABILITIES
+ SUPPORTS CISCO-EMBEDDED-EVENT-MGR-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.26 = STRING: "Agent capabilities for
+                         CISCO-ENHANCED-MEMPOOL-MIB
+ LAST-UPDATED 200704160000Z 
+cempCapabilityV12R03T AGENT-CAPABILITIES
+ SUPPORTS CISCO-ENHANCED-MEMPOOL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.27 = STRING: "The Agent Capabilities for CISCO-ENTITY-FRU-CONTROL-MIB.
+ LAST-UPDATED 200912140000Z 
+ciscoEntityFruControlCapabilityV2R00 AGENT-CAPABILITIES
+ SUPPORTS CISCO-ENTITY-FRU-CONTROL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.28 = STRING: "Agent capabilities for CISCO-ENVMON-MIB.
+ LAST-UPDATED 200705180000Z 
+ciscoEnvMonCapV12R05TPMARS AGENT-CAPABILITIES
+ SUPPORTS CISCO-ENVMON-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.29 = STRING: "Agent capabilities for CISCO-ERM-MIB
+
+
+    REVISION 
+ LAST-UPDATED 200603090000Z 
+ciscoErmCapabilityV12R02SR AGENT-CAPABILITIES
+SUPPORTS CISCO-ERM-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.30 = STRING: "Agent capabilities for ETHERLIKE-MIB (RFC 2665).
+ LAST-UPDATED 0001211400Z 
+ciscoEtherlikeCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS ETHERLIKE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.31 = STRING: "Agent capabilities for RFC 1512 FDDI MIB.
+ LAST-UPDATED 9411080000Z 
+fddiCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS FDDI-SMT73-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.32 = STRING: "Agent capabilities for the FRAS Host MIB
+ LAST-UPDATED 9702120000Z 
+ciscoFrasHostCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-FRAS-HOST-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.33 = STRING: "Agent capabilities for CISCO-GATEKEEPER-MIB
+ LAST-UPDATED 200004170000Z 
+ciscoGatekeeperCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-GATEKEEPER-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.34 = STRING: "Agent capabilities for CISCO-GPRS-GTP-MIB
+ LAST-UPDATED 200112201600Z 
+cgprsGtpCapabilityV12R02 AGENT-CAPABILITIES
+ SUPPORTS CISCO-GPRS-GTP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.35 = STRING: "Agent capabilities for HOST-RESOURCES-MIB
+ LAST-UPDATED 200709170000Z 
+ciscoHostResourcesCapabilityV12R04 AGENT-CAPABILITIES
+ SUPPORTS HOST-RESOURCES-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.36 = STRING: "Agent capabilities for CISCO-HSRP-MIB
+ LAST-UPDATED 9808250000Z 
+ciscoHsrpCapabilityV12R0 AGENT-CAPABILITIES
+SUPPORTS CISCO-HSRP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.37 = STRING: "Agent capabilities for CISCO-HSRP-EXT-MIB
+ LAST-UPDATED 9808250000Z 
+ciscoHsrpExtCapabilityV12R0 AGENT-CAPABILITIES
+SUPPORTS CISCO-HSRP-EXT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.38 = STRING: "Integrated CSU/DSU MIB module.  For T1 and Switched 56 kbps
+                        interfaces.
+ LAST-UPDATED 9601210000Z 
+ciscoICsuDsuCapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-ICSUDSU-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.39 = STRING: "Agent capabilities for DIAL-CONTROL-MIB
+ LAST-UPDATED 9709170000Z 
+ciscoIetfDialControlCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-IETF-DIAL-CONTROL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.40 = STRING: "Agent capabilities for DLSW-MIB
+ LAST-UPDATED 9702280000Z 
+ciscoIetfDlswCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS DLSW-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.41 = STRING: "Agent capabilities for ISDN-MIB (IETF RFC2127)
+ LAST-UPDATED 9806210000Z 
+ciscoIetfIsdnCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-IETF-ISDN-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.42 = STRING: "Agent capabilities for NAT-MIB
+ LAST-UPDATED 200109100000Z 
+ciscoIetfNatCapabilityV12R02T AGENT-CAPABILITIES
+SUPPORTS CISCO-IETF-NAT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.43 = STRING: "Agent capabilities for TCP-MIB
+ LAST-UPDATED 9611270000Z 
+ciscoIetfTcpCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS TCP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.44 = STRING: "Modification of linkDown trap objects
+                 and ifLastChange object
+ LAST-UPDATED 200301210000Z 
+ciscoIfCapabilityFrsm12V3R00 AGENT-CAPABILITIES
+SUPPORTS IF-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.45 = STRING: "200611240000Z
+    DESCRIPTION
+
+        
+ LAST-UPDATED 200611240000Z 
+ciscoImaExtAxsmeCapabilityV5R320 AGENT-CAPABILITIES
+ SUPPORTS CISCO-IMA-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.46 = STRING: "Agent capabilities for CISCO-IMAGE-MIB
+ LAST-UPDATED 9501250000Z 
+ciscoImageMIBCapabilityV10R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-IMAGE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.47 = STRING: "Agent capabilities for CISCO-IPSLA-VIDEO-PROFILE-MIB
+ LAST-UPDATED 201106010000Z 
+ciscoIpslaVideoProfileCapabilityV152R02T AGENT-CAPABILITIES
+ SUPPORTS CISCO-IPSLA-VIDEO-PROFILE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.48 = STRING: "Agent capabilities for CISCO-ISDN-MIB
+ LAST-UPDATED 9503100000Z 
+ciscoIsdnCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-ISDN-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.49 = STRING: "Agent capabilities for Job-Monitoring-MIB
+ LAST-UPDATED 200706070000Z 
+ciscoJobMonitoringCapabilityV12R04 AGENT-CAPABILITIES
+ SUPPORTS Job-Monitoring-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.50 = STRING: "Agent capabilities for CISCO-MEDIA-QUALITY-MIB.
+ LAST-UPDATED 201109230000Z 
+ciscoMediaQualityCapabilityV152R02 AGENT-CAPABILITIES
+ SUPPORTS CISCO-MEDIA-QUALITY-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.51 = STRING: "Agent capabilities for MIP-MIB 
+                        (MobileIP MIB).
+ LAST-UPDATED 200312240000Z 
+ciscoMIPCapabilityV12R0304T AGENT-CAPABILITIES
+SUPPORTS MIP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.52 = STRING: "Agent capabilities for CISCO-MMAIL-DIAL-CONTROL-MIB
+ LAST-UPDATED 9806010000Z 
+ciscoMediaMailControlCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-MMAIL-DIAL-CONTROL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.53 = STRING: "200607310000Z
+    DESCRIPTION
+
+            
+ LAST-UPDATED 200607310000Z 
+ciscoModemMgmtCapV12R4TISR AGENT-CAPABILITIES
+ SUPPORTS CISCO-MODEM-MGMT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.54 = STRING: "Agent capabilities for MSDP-MIB
+ LAST-UPDATED 200008220000Z 
+ciscoMsdpCapabilityV12R01T AGENT-CAPABILITIES
+SUPPORTS DRAFT-MSDP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.55 = STRING: "The capabilities description of CISCO-NAC-NAD-MIB.
+
+
+        REVISION        
+ LAST-UPDATED 200612120000Z 
+ciscoNacNadCapIOSV12R04012T AGENT-CAPABILITIES
+ SUPPORTS CISCO-NAC-NAD-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.56 = STRING: "Agent capabilities for NOTIFICATION-LOG-MIB
+ LAST-UPDATED 200511180000Z 
+cNotificationLogCapabilityV12R04 AGENT-CAPABILITIES
+ SUPPORTS NOTIFICATION-LOG-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.57 = STRING: "Agent capabilities for NOVELL-IPX-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoNovellIpxCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS NOVELL-IPX-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.58 = STRING: "Agent capabilities for NOVELL-RIPSAP-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoNovellRipSapCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS NOVELL-RIPSAP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.59 = STRING: "Agent capabilities for CISCO-PING-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoPingCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-PING-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.60 = STRING: "Agent capabilities for CISCO-POP-MGMT-MIB.
+ LAST-UPDATED 200510120000Z 
+ciscoPopMgmtCapabilityV12R04 AGENT-CAPABILITIES
+SUPPORTS CISCO-POP-MGMT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.61 = STRING: "Agent capabilities for Printer-MIB
+ LAST-UPDATED 200706070000Z 
+ciscoPrinterCapabilityV12R04 AGENT-CAPABILITIES
+ SUPPORTS Printer-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.62 = STRING: "Agent capabilities for CISCO-PROCESS-MIB
+ LAST-UPDATED 200411050000Z 
+ciscoProcessCapabilityV12R03T AGENT-CAPABILITIES
+SUPPORTS CISCO-PROCESS-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.63 = STRING: "Agent capabilities for the RFC1213-MIB (MIB-II)
+ LAST-UPDATED 200109081600Z 
+ciscoRFC1213CapabilityV12R02 AGENT-CAPABILITIES
+SUPPORTS RFC1213-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.64 = STRING: "Agent capabilities for RFC1231-MIB (Token Ring MIB)
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1231CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1231-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.65 = STRING: "Agent capabilities for RFC1243-MIB (Appletalk MIB)
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1243CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1243-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.66 = STRING: "Agent capabilities for the OSPF MIB.
+ LAST-UPDATED 9411220000Z 
+ospfCapabilityV10R01 AGENT-CAPABILITIES
+SUPPORTS RFC1253-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.67 = STRING: "Agent capabilities for RFC1285-MIB (FDDI MIB)
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1285CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1285-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.68 = STRING: "Agent capabilities for RFC1315-MIB (Frame Relay MIB)
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1315CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1315-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.69 = STRING: "Agent capabilities for RFC1381-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1381CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1381-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.70 = STRING: "Agent capabilities for RFC1382-MIB (X.25 MIB)
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1382CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1382-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.71 = STRING: "Agent capabilities for RFC1398-MIB (Ethernet MIB).
+ LAST-UPDATED 9408180000Z 
+ciscoRFC1398CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1398-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.72 = STRING: "Agent capabilities for RFC1406-MIB (DS1 MIB)
+ LAST-UPDATED 200307080000Z 
+ciscoRFC1406CapabilityV122R12T AGENT-CAPABILITIES
+SUPPORTS RFC1406-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.73 = STRING: "Agent capabilities for RFC1407-MIB (DS3 MIB)
+ LAST-UPDATED 200108170000Z 
+ciscoRFC1407CapabilityV122R12 AGENT-CAPABILITIES
+SUPPORTS RFC1407-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.74 = STRING: "Agent capabilities for RFC1595-MIB (SONET MIB)
+ LAST-UPDATED 9607290000Z 
+ciscoRFC1595CapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS RFC1595-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.75 = STRING: "Agent capabilities for RS-232-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoRS232CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RS-232-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.76 = STRING: "Agent capabilities for the CISCO-SIP-UA-MIB.
+ LAST-UPDATED 200506220000Z 
+ciscoSipUaCapabilityV12R0402T AGENT-CAPABILITIES
+SUPPORTS CISCO-SIP-UA-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.77 = STRING: "Agent capabilities for the CISCO-SNA-LLC-MIB
+ LAST-UPDATED 9505100000Z 
+ciscoSnaLlcCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-SNA-LLC-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.78 = STRING: "Agent capabilities for the SNA-SDLC-MIB
+ LAST-UPDATED 9501230000Z 
+ciscoSnaSdlcCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNA-SDLC-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.79 = STRING: "Agent capabilities for CISCO-SNAPSHOT-MIB
+ LAST-UPDATED 9501230000Z 
+ciscoSnapshotCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-SNAPSHOT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.80 = STRING: "Agent capabilities for SNMPv2-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoSnmpV2CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNMPv2-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.81 = STRING: "Agent capabilities for SNMPv2-PARTY-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoSnmpV2PartyCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNMPv2-PARTY-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.82 = STRING: "Agent capabilities for SOURCE-ROUTING-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoSourceRoutingCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SOURCE-ROUTING-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.83 = STRING: "Agent capabilities for CISCO-TCP-MIB
+ LAST-UPDATED 9408180000Z 
+ciscoTcpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-TCP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.84 = STRING: "Agent capabilities for the CISCO-TCPOFFLOAD-MIB
+ LAST-UPDATED 9706230000Z 
+ciscoTcpOffloadCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-TCPOFFLOAD-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.85 = STRING: "Agent capabilities for 
+                 CISCO-THREAT-MITIGATION-SERVICE-MIB.
+ LAST-UPDATED 200705170000Z 
+ciscoTmsCapIOSV12R05T AGENT-CAPABILITIES
+ SUPPORTS CISCO-THREAT-MITIGATION-SERVICE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.86 = STRING: "Agent capabilities for UDP-MIB
+ LAST-UPDATED 9611270000Z 
+ciscoUdpCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS UDP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.87 = STRING: "Agent capabilities for CISCO-VIDEO-SESSION-MIB.
+ LAST-UPDATED 201105240000Z 
+ciscoVideoSessionCapabilityV15R01 AGENT-CAPABILITIES
+ SUPPORTS CISCO-VIDEO-SESSION-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.88 = STRING: "Agent capabilities for CISCO-VOICE-ANALOG-IF-MIB
+
+
+        REVISION    
+ LAST-UPDATED 200304280000Z 
+ciscoVoiceAnalogIfCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-VOICE-ANALOG-IF-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.89 = STRING: "Agent capabilities for CISCO-VOICE-DIAL-CONTROL-MIB.
+ LAST-UPDATED 200903310000Z 
+ciscoVoiceDialControlCapV12R04 AGENT-CAPABILITIES
+ SUPPORTS CISCO-VOICE-DIAL-CONTROL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.90 = STRING: "Agent capabilities for CISCO-VOICE-IF-MIB
+ LAST-UPDATED 9706150000Z 
+ciscoVoiceIfCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-VOICE-IF-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.91 = STRING: "
+ LAST-UPDATED 200603010000Z 
+ciscoXgcpCapabilityV5R300 AGENT-CAPABILITIES
+ SUPPORTS CISCO-XGCP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.92 = STRING: "The capabilities description of
+                 CISCO-XGCP-EXT-MIB.
+ LAST-UPDATED 200406180000Z 
+ciscoXgcpExtCapabilityV12R03 AGENT-CAPABILITIES
+ SUPPORTS CISCO-XGCP-EXT-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.93 = STRING: "Agent capabilities for MPLS-TE-MIB
+
+
+   -- Revision history.
+
+
+
+   REVISION
+
+          
+ LAST-UPDATED
+mplsTeCapabilityV10R00 AGENT-CAPABILITIES
+SUPPORTS MPLS-TE-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.94 = STRING: "Agent capabilities for OLD-CISCO-APPLETALK-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoAppletalkCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-APPLETALK-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.95 = STRING: "Agent capabilities for OLD-CISCO-CHASSIS-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoChassisCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-CHASSIS-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.96 = STRING: "Agent capabilities for OLD-CISCO-CPU-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoCpuCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-CPU-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.97 = STRING: "Agent capabilities for OLD-CISCO-DECNET-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoDECnetCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-DECNET-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.98 = STRING: "Agent capabilities for OLD-CISCO-ENV-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoEnvCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-ENV-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.99 = STRING: "Agent capabilities for OLD-CISCO-FLASH-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoFlashCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-FLASH-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.100 = STRING: "Agent capabilities for OLD-CISCO-INTERFACES-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoIfCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-INTERFACES-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.101 = STRING: "Agent capabilities for OLD-CISCO-IP-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoIpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-IP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.102 = STRING: "Agent capabilities for OLD-CISCO-MEMORY-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoMemoryCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-MEMORY-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.103 = STRING: "Agent capabilities for OLD-CISCO-NOVELL-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoNovellCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-NOVELL-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.104 = STRING: "Agent capabilities for OLD-CISCO-SYSTEM-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoSystemCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-SYSTEM-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.105 = STRING: "Agent capabilities for OLD-CISCO-TCP-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoTcpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-TCP-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.3.106 = STRING: "Agent capabilities for OLD-CISCO-TS-MIB
+ LAST-UPDATED 9408180000Z 
+oldCiscoTsCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-TS-MIB
+File name: sys"
+.1.3.6.1.2.1.1.9.1.4.1 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.2 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.3 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.4 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.5 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.6 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.7 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.8 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.9 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.10 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.11 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.12 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.13 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.14 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.15 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.16 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.17 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.18 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.19 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.20 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.21 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.22 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.23 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.24 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.25 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.26 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.27 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.28 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.29 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.30 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.31 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.32 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.33 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.34 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.35 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.36 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.37 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.38 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.39 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.40 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.41 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.42 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.43 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.44 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.45 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.46 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.47 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.48 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.49 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.50 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.51 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.52 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.53 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.54 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.55 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.56 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.57 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.58 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.59 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.60 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.61 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.62 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.63 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.64 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.65 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.66 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.67 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.68 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.69 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.70 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.71 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.72 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.73 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.74 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.75 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.76 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.77 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.78 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.79 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.80 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.81 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.82 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.83 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.84 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.85 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.86 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.87 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.88 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.89 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.90 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.91 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.92 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.93 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.94 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.95 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.96 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.97 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.98 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.99 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.100 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.101 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.102 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.103 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.104 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.105 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.1.9.1.4.106 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.2.1.0 = INTEGER: 9
+.1.3.6.1.2.1.2.2.1.1.1 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.1.2 = INTEGER: 2
+.1.3.6.1.2.1.2.2.1.1.3 = INTEGER: 3
+.1.3.6.1.2.1.2.2.1.1.4 = INTEGER: 4
+.1.3.6.1.2.1.2.2.1.1.5 = INTEGER: 5
+.1.3.6.1.2.1.2.2.1.1.6 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.1.8 = INTEGER: 8
+.1.3.6.1.2.1.2.2.1.1.9 = INTEGER: 9
+.1.3.6.1.2.1.2.2.1.1.10 = INTEGER: 10
+.1.3.6.1.2.1.2.2.1.2.1 = STRING: "GigabitEthernet1/0"
+.1.3.6.1.2.1.2.2.1.2.2 = STRING: "GigabitEthernet1/1"
+.1.3.6.1.2.1.2.2.1.2.3 = STRING: "Embedded-Service-Engine0/0"
+.1.3.6.1.2.1.2.2.1.2.4 = STRING: "GigabitEthernet0/0"
+.1.3.6.1.2.1.2.2.1.2.5 = STRING: "GigabitEthernet0/1"
+.1.3.6.1.2.1.2.2.1.2.6 = STRING: "GigabitEthernet0/2"
+.1.3.6.1.2.1.2.2.1.2.8 = STRING: "Null0"
+.1.3.6.1.2.1.2.2.1.2.9 = STRING: "Vlan1"
+.1.3.6.1.2.1.2.2.1.2.10 = STRING: "Backplane-GigabitEthernet0/3"
+.1.3.6.1.2.1.2.2.1.3.1 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.2 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.3 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.4 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.5 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.6 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.3.8 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.3.9 = INTEGER: 53
+.1.3.6.1.2.1.2.2.1.3.10 = INTEGER: 6
+.1.3.6.1.2.1.2.2.1.4.1 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.2 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.3 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.4 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.5 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.6 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.8 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.9 = INTEGER: 1500
+.1.3.6.1.2.1.2.2.1.4.10 = INTEGER: 9576
+.1.3.6.1.2.1.2.2.1.5.1 = Gauge32: 1000000000
+.1.3.6.1.2.1.2.2.1.5.2 = Gauge32: 1000000000
+.1.3.6.1.2.1.2.2.1.5.3 = Gauge32: 10000000
+.1.3.6.1.2.1.2.2.1.5.4 = Gauge32: 100000000
+.1.3.6.1.2.1.2.2.1.5.5 = Gauge32: 100000000
+.1.3.6.1.2.1.2.2.1.5.6 = Gauge32: 1000000000
+.1.3.6.1.2.1.2.2.1.5.8 = Gauge32: 4294967295
+.1.3.6.1.2.1.2.2.1.5.9 = Gauge32: 100000000
+.1.3.6.1.2.1.2.2.1.5.10 = Gauge32: 1000000000
+.1.3.6.1.2.1.2.2.1.6.1 = Hex-STRING: B0 FA EB 71 BD F0 
+.1.3.6.1.2.1.2.2.1.6.2 = Hex-STRING: 00 00 00 00 00 09 
+.1.3.6.1.2.1.2.2.1.6.3 = Hex-STRING: 00 00 00 00 00 00 
+.1.3.6.1.2.1.2.2.1.6.4 = Hex-STRING: B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.2.2.1.6.5 = Hex-STRING: B0 FA EB 71 BD C1 
+.1.3.6.1.2.1.2.2.1.6.6 = Hex-STRING: B0 FA EB 71 BD C2 
+.1.3.6.1.2.1.2.2.1.6.8 = ""
+.1.3.6.1.2.1.2.2.1.6.9 = Hex-STRING: B0 FA EB 71 BD C3 
+.1.3.6.1.2.1.2.2.1.6.10 = Hex-STRING: B0 FA EB 71 BD C3 
+.1.3.6.1.2.1.2.2.1.7.1 = INTEGER: 2
+.1.3.6.1.2.1.2.2.1.7.2 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.3 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.4 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.5 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.6 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.8 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.9 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.7.10 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.1 = INTEGER: 2
+.1.3.6.1.2.1.2.2.1.8.2 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.3 = INTEGER: 2
+.1.3.6.1.2.1.2.2.1.8.4 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.5 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.6 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.8 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.9 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.8.10 = INTEGER: 1
+.1.3.6.1.2.1.2.2.1.9.1 = Timeticks: (6499) 0:01:04.99
+.1.3.6.1.2.1.2.2.1.9.2 = Timeticks: (57003173) 6 days, 14:20:31.73
+.1.3.6.1.2.1.2.2.1.9.3 = Timeticks: (1219) 0:00:12.19
+.1.3.6.1.2.1.2.2.1.9.4 = Timeticks: (3369) 0:00:33.69
+.1.3.6.1.2.1.2.2.1.9.5 = Timeticks: (57003670) 6 days, 14:20:36.70
+.1.3.6.1.2.1.2.2.1.9.6 = Timeticks: (101565) 0:16:55.65
+.1.3.6.1.2.1.2.2.1.9.8 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.2.2.1.9.9 = Timeticks: (57006174) 6 days, 14:21:01.74
+.1.3.6.1.2.1.2.2.1.9.10 = Timeticks: (3369) 0:00:33.69
+.1.3.6.1.2.1.2.2.1.10.1 = Counter32: 8619347
+.1.3.6.1.2.1.2.2.1.10.2 = Counter32: 14564299
+.1.3.6.1.2.1.2.2.1.10.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.10.4 = Counter32: 2854523986
+.1.3.6.1.2.1.2.2.1.10.5 = Counter32: 1438109995
+.1.3.6.1.2.1.2.2.1.10.6 = Counter32: 419106605
+.1.3.6.1.2.1.2.2.1.10.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.10.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.10.10 = Counter32: 9541464
+.1.3.6.1.2.1.2.2.1.11.1 = Counter32: 23051
+.1.3.6.1.2.1.2.2.1.11.2 = Counter32: 134188
+.1.3.6.1.2.1.2.2.1.11.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.11.4 = Counter32: 18063787
+.1.3.6.1.2.1.2.2.1.11.5 = Counter32: 77766621
+.1.3.6.1.2.1.2.2.1.11.6 = Counter32: 19500185
+.1.3.6.1.2.1.2.2.1.11.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.11.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.11.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.2 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.4 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.5 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.6 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.13.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.2 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.4 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.5 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.6 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.14.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.2 = Counter32: 23055
+.1.3.6.1.2.1.2.2.1.15.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.4 = Counter32: 257
+.1.3.6.1.2.1.2.2.1.15.5 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.6 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.15.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.16.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.16.2 = Counter32: 29233253
+.1.3.6.1.2.1.2.2.1.16.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.16.4 = Counter32: 392542161
+.1.3.6.1.2.1.2.2.1.16.5 = Counter32: 3856666396
+.1.3.6.1.2.1.2.2.1.16.6 = Counter32: 1422695836
+.1.3.6.1.2.1.2.2.1.16.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.16.9 = Counter32: 88319
+.1.3.6.1.2.1.2.2.1.16.10 = Counter32: 29029977
+.1.3.6.1.2.1.2.2.1.17.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.17.2 = Counter32: 380422
+.1.3.6.1.2.1.2.2.1.17.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.17.4 = Counter32: 27925556
+.1.3.6.1.2.1.2.2.1.17.5 = Counter32: 7989469
+.1.3.6.1.2.1.2.2.1.17.6 = Counter32: 77858774
+.1.3.6.1.2.1.2.2.1.17.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.17.9 = Counter32: 1147
+.1.3.6.1.2.1.2.2.1.17.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.2 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.4 = Counter32: 233669
+.1.3.6.1.2.1.2.2.1.19.5 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.6 = Counter32: 69
+.1.3.6.1.2.1.2.2.1.19.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.19.10 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.1 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.2 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.3 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.4 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.5 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.6 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.8 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.9 = Counter32: 0
+.1.3.6.1.2.1.2.2.1.20.10 = Counter32: 0
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.1 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.25 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.32 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.33 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.35 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.41 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.48 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.52 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.53 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.54 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.55 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.56 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.62 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.69 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.97 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.102 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.103 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.106 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.107 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.112 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.113 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.116 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.122 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.128 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.193 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.197 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.214 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.216 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.4.1.172.17.1.218 = INTEGER: 4
+.1.3.6.1.2.1.3.1.1.1.5.1.10.0.3.102 = INTEGER: 5
+.1.3.6.1.2.1.3.1.1.1.5.1.10.0.3.105 = INTEGER: 5
+.1.3.6.1.2.1.3.1.1.1.6.1.10.0.1.105 = INTEGER: 6
+.1.3.6.1.2.1.3.1.1.1.6.1.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.1 = Hex-STRING: 34 62 88 93 65 75 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.25 = Hex-STRING: 00 11 32 24 89 95 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.32 = Hex-STRING: 00 50 56 B6 FB C9 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.33 = Hex-STRING: 00 50 56 B6 44 05 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.35 = Hex-STRING: 00 50 56 B6 2C 0C 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.41 = Hex-STRING: 00 50 56 98 CE A5 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.48 = Hex-STRING: 00 50 56 98 C7 42 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.52 = Hex-STRING: 00 0C 29 8D 6C 51 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.53 = Hex-STRING: 00 0C 29 7C 38 89 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.54 = Hex-STRING: 00 0C 29 48 77 B4 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.55 = Hex-STRING: 00 0C 29 BC CC 1B 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.56 = Hex-STRING: 00 0C 29 2E E2 16 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.62 = Hex-STRING: 00 50 56 98 07 11 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.69 = Hex-STRING: 00 50 56 98 C3 A1 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.97 = Hex-STRING: 00 50 56 98 51 DC 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.102 = Hex-STRING: 20 BB C0 29 10 42 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.103 = Hex-STRING: 20 BB C0 29 0D C2 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.105 = Hex-STRING: B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.106 = Hex-STRING: 4C 4E 35 C3 7A A9 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.107 = Hex-STRING: B0 FA EB 71 B4 B0 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.112 = Hex-STRING: 7C AD 74 BE 21 1D 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.113 = Hex-STRING: 7C AD 74 D5 F9 93 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.116 = Hex-STRING: 6C 20 56 CD 41 7F 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.122 = Hex-STRING: 64 12 25 A2 F2 A1 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.128 = Hex-STRING: 7C AD 74 40 1D 14 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.193 = Hex-STRING: 00 1B D4 9D 0D CA 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.197 = Hex-STRING: 54 75 D0 6D 3B 83 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.214 = Hex-STRING: 20 BB C0 5F 10 C0 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.216 = Hex-STRING: 54 75 D0 6D 46 C3 
+.1.3.6.1.2.1.3.1.1.2.4.1.172.17.1.218 = Hex-STRING: 00 50 56 98 10 80 
+.1.3.6.1.2.1.3.1.1.2.5.1.10.0.3.102 = Hex-STRING: 20 BB C0 29 10 41 
+.1.3.6.1.2.1.3.1.1.2.5.1.10.0.3.105 = Hex-STRING: B0 FA EB 71 BD C1 
+.1.3.6.1.2.1.3.1.1.2.6.1.10.0.1.105 = Hex-STRING: B0 FA EB 71 BD C2 
+.1.3.6.1.2.1.3.1.1.2.6.1.10.0.1.106 = Hex-STRING: 4C 4E 35 BA 3F 21 
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.1 = IpAddress: 172.17.1.1
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.25 = IpAddress: 172.17.1.25
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.32 = IpAddress: 172.17.1.32
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.33 = IpAddress: 172.17.1.33
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.35 = IpAddress: 172.17.1.35
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.41 = IpAddress: 172.17.1.41
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.48 = IpAddress: 172.17.1.48
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.52 = IpAddress: 172.17.1.52
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.53 = IpAddress: 172.17.1.53
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.54 = IpAddress: 172.17.1.54
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.55 = IpAddress: 172.17.1.55
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.56 = IpAddress: 172.17.1.56
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.62 = IpAddress: 172.17.1.62
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.69 = IpAddress: 172.17.1.69
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.97 = IpAddress: 172.17.1.97
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.102 = IpAddress: 172.17.1.102
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.103 = IpAddress: 172.17.1.103
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.105 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.106 = IpAddress: 172.17.1.106
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.107 = IpAddress: 172.17.1.107
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.112 = IpAddress: 172.17.1.112
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.113 = IpAddress: 172.17.1.113
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.116 = IpAddress: 172.17.1.116
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.122 = IpAddress: 172.17.1.122
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.128 = IpAddress: 172.17.1.128
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.193 = IpAddress: 172.17.1.193
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.197 = IpAddress: 172.17.1.197
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.214 = IpAddress: 172.17.1.214
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.216 = IpAddress: 172.17.1.216
+.1.3.6.1.2.1.3.1.1.3.4.1.172.17.1.218 = IpAddress: 172.17.1.218
+.1.3.6.1.2.1.3.1.1.3.5.1.10.0.3.102 = IpAddress: 10.0.3.102
+.1.3.6.1.2.1.3.1.1.3.5.1.10.0.3.105 = IpAddress: 10.0.3.105
+.1.3.6.1.2.1.3.1.1.3.6.1.10.0.1.105 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.3.1.1.3.6.1.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.1.0 = INTEGER: 1
+.1.3.6.1.2.1.4.2.0 = INTEGER: 255
+.1.3.6.1.2.1.4.3.0 = Counter32: 30472799
+.1.3.6.1.2.1.4.4.0 = Counter32: 42
+.1.3.6.1.2.1.4.5.0 = Counter32: 0
+.1.3.6.1.2.1.4.6.0 = Counter32: 86493804
+.1.3.6.1.2.1.4.7.0 = Counter32: 0
+.1.3.6.1.2.1.4.8.0 = Counter32: 0
+.1.3.6.1.2.1.4.9.0 = Counter32: 30465495
+.1.3.6.1.2.1.4.10.0 = Counter32: 27622023
+.1.3.6.1.2.1.4.11.0 = Counter32: 10
+.1.3.6.1.2.1.4.12.0 = Counter32: 35
+.1.3.6.1.2.1.4.13.0 = INTEGER: 30
+.1.3.6.1.2.1.4.14.0 = Counter32: 0
+.1.3.6.1.2.1.4.15.0 = Counter32: 0
+.1.3.6.1.2.1.4.16.0 = Counter32: 0
+.1.3.6.1.2.1.4.17.0 = Counter32: 0
+.1.3.6.1.2.1.4.18.0 = Counter32: 0
+.1.3.6.1.2.1.4.19.0 = Counter32: 0
+.1.3.6.1.2.1.4.20.1.1.10.0.1.105 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.4.20.1.1.10.0.3.105 = IpAddress: 10.0.3.105
+.1.3.6.1.2.1.4.20.1.1.172.17.1.105 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.4.20.1.2.10.0.1.105 = INTEGER: 6
+.1.3.6.1.2.1.4.20.1.2.10.0.3.105 = INTEGER: 5
+.1.3.6.1.2.1.4.20.1.2.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.20.1.3.10.0.1.105 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.20.1.3.10.0.3.105 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.20.1.3.172.17.1.105 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.20.1.4.10.0.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.20.1.4.10.0.3.105 = INTEGER: 1
+.1.3.6.1.2.1.4.20.1.4.172.17.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.20.1.5.10.0.1.105 = INTEGER: 18024
+.1.3.6.1.2.1.4.20.1.5.10.0.3.105 = INTEGER: 18024
+.1.3.6.1.2.1.4.20.1.5.172.17.1.105 = INTEGER: 18024
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.1 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.25 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.32 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.33 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.35 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.41 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.48 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.52 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.53 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.54 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.55 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.56 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.62 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.69 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.97 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.102 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.103 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.107 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.112 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.113 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.116 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.122 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.128 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.193 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.197 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.214 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.216 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.4.172.17.1.218 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.1.5.10.0.3.102 = INTEGER: 5
+.1.3.6.1.2.1.4.22.1.1.5.10.0.3.105 = INTEGER: 5
+.1.3.6.1.2.1.4.22.1.1.6.10.0.1.105 = INTEGER: 6
+.1.3.6.1.2.1.4.22.1.1.6.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.1 = Hex-STRING: 34 62 88 93 65 75 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.25 = Hex-STRING: 00 11 32 24 89 95 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.32 = Hex-STRING: 00 50 56 B6 FB C9 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.33 = Hex-STRING: 00 50 56 B6 44 05 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.35 = Hex-STRING: 00 50 56 B6 2C 0C 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.41 = Hex-STRING: 00 50 56 98 CE A5 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.48 = Hex-STRING: 00 50 56 98 C7 42 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.52 = Hex-STRING: 00 0C 29 8D 6C 51 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.53 = Hex-STRING: 00 0C 29 7C 38 89 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.54 = Hex-STRING: 00 0C 29 48 77 B4 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.55 = Hex-STRING: 00 0C 29 BC CC 1B 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.56 = Hex-STRING: 00 0C 29 2E E2 16 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.62 = Hex-STRING: 00 50 56 98 07 11 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.69 = Hex-STRING: 00 50 56 98 C3 A1 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.97 = Hex-STRING: 00 50 56 98 51 DC 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.102 = Hex-STRING: 20 BB C0 29 10 42 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.103 = Hex-STRING: 20 BB C0 29 0D C2 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.105 = Hex-STRING: B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.106 = Hex-STRING: 4C 4E 35 C3 7A A9 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.107 = Hex-STRING: B0 FA EB 71 B4 B0 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.112 = Hex-STRING: 7C AD 74 BE 21 1D 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.113 = Hex-STRING: 7C AD 74 D5 F9 93 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.116 = Hex-STRING: 6C 20 56 CD 41 7F 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.122 = Hex-STRING: 64 12 25 A2 F2 A1 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.128 = Hex-STRING: 7C AD 74 40 1D 14 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.193 = Hex-STRING: 00 1B D4 9D 0D CA 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.197 = Hex-STRING: 54 75 D0 6D 3B 83 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.214 = Hex-STRING: 20 BB C0 5F 10 C0 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.216 = Hex-STRING: 54 75 D0 6D 46 C3 
+.1.3.6.1.2.1.4.22.1.2.4.172.17.1.218 = Hex-STRING: 00 50 56 98 10 80 
+.1.3.6.1.2.1.4.22.1.2.5.10.0.3.102 = Hex-STRING: 20 BB C0 29 10 41 
+.1.3.6.1.2.1.4.22.1.2.5.10.0.3.105 = Hex-STRING: B0 FA EB 71 BD C1 
+.1.3.6.1.2.1.4.22.1.2.6.10.0.1.105 = Hex-STRING: B0 FA EB 71 BD C2 
+.1.3.6.1.2.1.4.22.1.2.6.10.0.1.106 = Hex-STRING: 4C 4E 35 BA 3F 21 
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.1 = IpAddress: 172.17.1.1
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.25 = IpAddress: 172.17.1.25
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.32 = IpAddress: 172.17.1.32
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.33 = IpAddress: 172.17.1.33
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.35 = IpAddress: 172.17.1.35
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.41 = IpAddress: 172.17.1.41
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.48 = IpAddress: 172.17.1.48
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.52 = IpAddress: 172.17.1.52
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.53 = IpAddress: 172.17.1.53
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.54 = IpAddress: 172.17.1.54
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.55 = IpAddress: 172.17.1.55
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.56 = IpAddress: 172.17.1.56
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.62 = IpAddress: 172.17.1.62
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.69 = IpAddress: 172.17.1.69
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.97 = IpAddress: 172.17.1.97
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.102 = IpAddress: 172.17.1.102
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.103 = IpAddress: 172.17.1.103
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.105 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.106 = IpAddress: 172.17.1.106
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.107 = IpAddress: 172.17.1.107
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.112 = IpAddress: 172.17.1.112
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.113 = IpAddress: 172.17.1.113
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.116 = IpAddress: 172.17.1.116
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.122 = IpAddress: 172.17.1.122
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.128 = IpAddress: 172.17.1.128
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.193 = IpAddress: 172.17.1.193
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.197 = IpAddress: 172.17.1.197
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.214 = IpAddress: 172.17.1.214
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.216 = IpAddress: 172.17.1.216
+.1.3.6.1.2.1.4.22.1.3.4.172.17.1.218 = IpAddress: 172.17.1.218
+.1.3.6.1.2.1.4.22.1.3.5.10.0.3.102 = IpAddress: 10.0.3.102
+.1.3.6.1.2.1.4.22.1.3.5.10.0.3.105 = IpAddress: 10.0.3.105
+.1.3.6.1.2.1.4.22.1.3.6.10.0.1.105 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.4.22.1.3.6.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.1 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.25 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.32 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.33 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.35 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.41 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.48 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.52 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.53 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.54 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.55 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.56 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.62 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.69 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.97 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.102 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.103 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.107 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.112 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.113 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.116 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.122 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.128 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.193 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.197 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.214 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.216 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.4.172.17.1.218 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.5.10.0.3.102 = INTEGER: 3
+.1.3.6.1.2.1.4.22.1.4.5.10.0.3.105 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.4.6.10.0.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.22.1.4.6.10.0.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.23.0 = Counter32: 0
+.1.3.6.1.2.1.4.24.3.0 = Gauge32: 17
+.1.3.6.1.2.1.4.24.4.1.1.1.0.0.0.255.0.0.0.0.10.0.3.102 = IpAddress: 1.0.0.0
+.1.3.6.1.2.1.4.24.4.1.1.2.0.0.0.255.0.0.0.0.10.0.1.106 = IpAddress: 2.0.0.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 10.0.1.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.4.24.4.1.1.10.0.2.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.2.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.3.0.255.255.255.0.0.0.0.0.0 = IpAddress: 10.0.3.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.3.105.255.255.255.255.0.0.0.0.0 = IpAddress: 10.0.3.105
+.1.3.6.1.2.1.4.24.4.1.1.10.0.4.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.4.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.5.0.255.255.255.0.0.10.0.3.102 = IpAddress: 10.0.5.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.7.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.7.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.11.0.255.255.255.0.0.10.0.3.102 = IpAddress: 10.0.11.0
+.1.3.6.1.2.1.4.24.4.1.1.10.0.12.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.12.0
+.1.3.6.1.2.1.4.24.4.1.1.172.17.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 172.17.1.0
+.1.3.6.1.2.1.4.24.4.1.1.172.17.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.4.24.4.1.1.172.17.101.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.17.101.0
+.1.3.6.1.2.1.4.24.4.1.1.172.17.121.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.17.121.0
+.1.3.6.1.2.1.4.24.4.1.1.172.31.1.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.31.1.0
+.1.3.6.1.2.1.4.24.4.1.2.1.0.0.0.255.0.0.0.0.10.0.3.102 = IpAddress: 255.0.0.0
+.1.3.6.1.2.1.4.24.4.1.2.2.0.0.0.255.0.0.0.0.10.0.1.106 = IpAddress: 255.0.0.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 255.255.255.255
+.1.3.6.1.2.1.4.24.4.1.2.10.0.2.0.255.255.255.0.0.10.0.1.106 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.3.0.255.255.255.0.0.0.0.0.0 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.3.105.255.255.255.255.0.0.0.0.0 = IpAddress: 255.255.255.255
+.1.3.6.1.2.1.4.24.4.1.2.10.0.4.0.255.255.255.0.0.10.0.1.106 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.5.0.255.255.255.0.0.10.0.3.102 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.7.0.255.255.255.0.0.10.0.1.106 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.11.0.255.255.255.0.0.10.0.3.102 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.10.0.12.0.255.255.255.0.0.10.0.1.106 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.172.17.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.172.17.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 255.255.255.255
+.1.3.6.1.2.1.4.24.4.1.2.172.17.101.0.255.255.255.0.0.172.17.1.1 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.172.17.121.0.255.255.255.0.0.172.17.1.1 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.2.172.31.1.0.255.255.255.0.0.172.17.1.1 = IpAddress: 255.255.255.0
+.1.3.6.1.2.1.4.24.4.1.3.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.3.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.4.1.0.0.0.255.0.0.0.0.10.0.3.102 = IpAddress: 10.0.3.102
+.1.3.6.1.2.1.4.24.4.1.4.2.0.0.0.255.0.0.0.0.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.24.4.1.4.10.0.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.10.0.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.10.0.2.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.24.4.1.4.10.0.3.0.255.255.255.0.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.10.0.3.105.255.255.255.255.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.10.0.4.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.24.4.1.4.10.0.5.0.255.255.255.0.0.10.0.3.102 = IpAddress: 10.0.3.102
+.1.3.6.1.2.1.4.24.4.1.4.10.0.7.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.24.4.1.4.10.0.11.0.255.255.255.0.0.10.0.3.102 = IpAddress: 10.0.3.102
+.1.3.6.1.2.1.4.24.4.1.4.10.0.12.0.255.255.255.0.0.10.0.1.106 = IpAddress: 10.0.1.106
+.1.3.6.1.2.1.4.24.4.1.4.172.17.1.0.255.255.255.0.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.172.17.1.105.255.255.255.255.0.0.0.0.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.4.24.4.1.4.172.17.101.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.17.1.1
+.1.3.6.1.2.1.4.24.4.1.4.172.17.121.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.17.1.1
+.1.3.6.1.2.1.4.24.4.1.4.172.31.1.0.255.255.255.0.0.172.17.1.1 = IpAddress: 172.17.1.1
+.1.3.6.1.2.1.4.24.4.1.5.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 5
+.1.3.6.1.2.1.4.24.4.1.5.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 5
+.1.3.6.1.2.1.4.24.4.1.5.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 5
+.1.3.6.1.2.1.4.24.4.1.5.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 5
+.1.3.6.1.2.1.4.24.4.1.5.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 5
+.1.3.6.1.2.1.4.24.4.1.5.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.24.4.1.5.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.5.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.5.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.5.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.5.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.6.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.6.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.6.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 4
+.1.3.6.1.2.1.4.24.4.1.7.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 16
+.1.3.6.1.2.1.4.24.4.1.7.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.7.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.7.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.7.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.8.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 121974
+.1.3.6.1.2.1.4.24.4.1.8.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 613329
+.1.3.6.1.2.1.4.24.4.1.8.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 691021
+.1.3.6.1.2.1.4.24.4.1.8.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 691021
+.1.3.6.1.2.1.4.24.4.1.8.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 690963
+.1.3.6.1.2.1.4.24.4.1.8.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 122000
+.1.3.6.1.2.1.4.24.4.1.8.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 122000
+.1.3.6.1.2.1.4.24.4.1.8.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 690961
+.1.3.6.1.2.1.4.24.4.1.8.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 121974
+.1.3.6.1.2.1.4.24.4.1.8.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 613329
+.1.3.6.1.2.1.4.24.4.1.8.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 121974
+.1.3.6.1.2.1.4.24.4.1.8.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 613329
+.1.3.6.1.2.1.4.24.4.1.8.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 691969
+.1.3.6.1.2.1.4.24.4.1.8.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 691969
+.1.3.6.1.2.1.4.24.4.1.8.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 691964
+.1.3.6.1.2.1.4.24.4.1.8.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 691964
+.1.3.6.1.2.1.4.24.4.1.8.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 691964
+.1.3.6.1.2.1.4.24.4.1.9.1.0.0.0.255.0.0.0.0.10.0.3.102 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.2.0.0.0.255.0.0.0.0.10.0.1.106 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.1.0.255.255.255.0.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.1.105.255.255.255.255.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.2.0.255.255.255.0.0.10.0.1.106 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.3.0.255.255.255.0.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.3.105.255.255.255.255.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.4.0.255.255.255.0.0.10.0.1.106 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.5.0.255.255.255.0.0.10.0.3.102 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.7.0.255.255.255.0.0.10.0.1.106 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.11.0.255.255.255.0.0.10.0.3.102 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.10.0.12.0.255.255.255.0.0.10.0.1.106 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.172.17.1.0.255.255.255.0.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.172.17.1.105.255.255.255.255.0.0.0.0.0 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.172.17.101.0.255.255.255.0.0.172.17.1.1 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.172.17.121.0.255.255.255.0.0.172.17.1.1 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.9.172.31.1.0.255.255.255.0.0.172.17.1.1 = OID: .0.0
+.1.3.6.1.2.1.4.24.4.1.10.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.10.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 284160
+.1.3.6.1.2.1.4.24.4.1.11.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 286976
+.1.3.6.1.2.1.4.24.4.1.11.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 28416
+.1.3.6.1.2.1.4.24.4.1.11.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 30976
+.1.3.6.1.2.1.4.24.4.1.11.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 28416
+.1.3.6.1.2.1.4.24.4.1.11.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 31232
+.1.3.6.1.2.1.4.24.4.1.11.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 28416
+.1.3.6.1.2.1.4.24.4.1.11.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 31232
+.1.3.6.1.2.1.4.24.4.1.11.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.11.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 0
+.1.3.6.1.2.1.4.24.4.1.12.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 256000
+.1.3.6.1.2.1.4.24.4.1.12.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 256000
+.1.3.6.1.2.1.4.24.4.1.12.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 25600
+.1.3.6.1.2.1.4.24.4.1.12.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.12.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 1100
+.1.3.6.1.2.1.4.24.4.1.13.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 1210
+.1.3.6.1.2.1.4.24.4.1.13.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 110
+.1.3.6.1.2.1.4.24.4.1.13.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 210
+.1.3.6.1.2.1.4.24.4.1.13.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 110
+.1.3.6.1.2.1.4.24.4.1.13.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 220
+.1.3.6.1.2.1.4.24.4.1.13.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 110
+.1.3.6.1.2.1.4.24.4.1.13.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 220
+.1.3.6.1.2.1.4.24.4.1.13.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.13.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.14.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.14.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 2
+.1.3.6.1.2.1.4.24.4.1.14.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.14.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.14.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.24.4.1.14.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.14.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 255
+.1.3.6.1.2.1.4.24.4.1.15.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.15.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: -1
+.1.3.6.1.2.1.4.24.4.1.16.1.0.0.0.255.0.0.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.2.0.0.0.255.0.0.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.2.0.255.255.255.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.3.0.255.255.255.0.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.3.105.255.255.255.255.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.4.0.255.255.255.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.5.0.255.255.255.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.7.0.255.255.255.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.11.0.255.255.255.0.0.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.10.0.12.0.255.255.255.0.0.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.172.17.1.0.255.255.255.0.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.172.17.1.105.255.255.255.255.0.0.0.0.0 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.172.17.101.0.255.255.255.0.0.172.17.1.1 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.172.17.121.0.255.255.255.0.0.172.17.1.1 = INTEGER: 1
+.1.3.6.1.2.1.4.24.4.1.16.172.31.1.0.255.255.255.0.0.172.17.1.1 = INTEGER: 1
+.1.3.6.1.2.1.4.24.6.0 = Gauge32: 17
+.1.3.6.1.2.1.4.27.0 = Timeticks: (6133) 0:01:01.33
+.1.3.6.1.2.1.4.28.1.2.4 = INTEGER: 18024
+.1.3.6.1.2.1.4.28.1.2.5 = INTEGER: 18024
+.1.3.6.1.2.1.4.28.1.2.6 = INTEGER: 18024
+.1.3.6.1.2.1.4.28.1.3.4 = INTEGER: 1
+.1.3.6.1.2.1.4.28.1.3.5 = INTEGER: 1
+.1.3.6.1.2.1.4.28.1.3.6 = INTEGER: 1
+.1.3.6.1.2.1.4.28.1.4.4 = Gauge32: 14400000
+.1.3.6.1.2.1.4.28.1.4.5 = Gauge32: 14400000
+.1.3.6.1.2.1.4.28.1.4.6 = Gauge32: 14400000
+.1.3.6.1.2.1.4.31.1.1.3.1 = Counter32: 30473273
+.1.3.6.1.2.1.4.31.1.1.3.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.4.1 = Counter64: 30473276
+.1.3.6.1.2.1.4.31.1.1.4.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.5.1 = Counter32: 3181913800
+.1.3.6.1.2.1.4.31.1.1.5.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.6.1 = Counter64: 3181913948
+.1.3.6.1.2.1.4.31.1.1.6.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.7.1 = Counter32: 42
+.1.3.6.1.2.1.4.31.1.1.7.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.8.1 = Counter32: 35
+.1.3.6.1.2.1.4.31.1.1.8.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.9.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.9.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.10.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.10.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.11.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.11.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.12.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.12.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.13.1 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.13.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.14.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.14.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.15.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.15.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.16.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.16.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.17.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.17.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.18.1 = Counter32: 30465996
+.1.3.6.1.2.1.4.31.1.1.18.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.19.1 = Counter64: 30465998
+.1.3.6.1.2.1.4.31.1.1.19.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.20.1 = Counter32: 27622526
+.1.3.6.1.2.1.4.31.1.1.20.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.21.1 = Counter64: 27622528
+.1.3.6.1.2.1.4.31.1.1.21.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.22.1 = Counter32: 60
+.1.3.6.1.2.1.4.31.1.1.22.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.23.1 = Counter32: 86493858
+.1.3.6.1.2.1.4.31.1.1.23.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.24.1 = Counter64: 86493858
+.1.3.6.1.2.1.4.31.1.1.24.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.25.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.25.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.26.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.26.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.27.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.27.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.28.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.28.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.29.1 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.29.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.30.1 = Counter32: 27622547
+.1.3.6.1.2.1.4.31.1.1.30.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.31.1 = Counter64: 27622549
+.1.3.6.1.2.1.4.31.1.1.31.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.32.1 = Counter32: 3394904802
+.1.3.6.1.2.1.4.31.1.1.32.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.33.1 = Counter64: 20574774140
+.1.3.6.1.2.1.4.31.1.1.33.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.34.1 = Counter32: 297963
+.1.3.6.1.2.1.4.31.1.1.34.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.35.1 = Counter64: 297963
+.1.3.6.1.2.1.4.31.1.1.35.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.36.1 = Counter32: 18796718
+.1.3.6.1.2.1.4.31.1.1.36.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.37.1 = Counter64: 18796718
+.1.3.6.1.2.1.4.31.1.1.37.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.38.1 = Counter32: 298318
+.1.3.6.1.2.1.4.31.1.1.38.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.39.1 = Counter64: 298318
+.1.3.6.1.2.1.4.31.1.1.39.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.40.1 = Counter32: 17919877
+.1.3.6.1.2.1.4.31.1.1.40.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.41.1 = Counter64: 17919877
+.1.3.6.1.2.1.4.31.1.1.41.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.42.1 = Counter32: 505036
+.1.3.6.1.2.1.4.31.1.1.42.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.43.1 = Counter64: 505036
+.1.3.6.1.2.1.4.31.1.1.43.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.44.1 = Counter32: 27
+.1.3.6.1.2.1.4.31.1.1.44.2 = Counter32: 0
+.1.3.6.1.2.1.4.31.1.1.45.1 = Counter64: 27
+.1.3.6.1.2.1.4.31.1.1.45.2 = Counter64: 0
+.1.3.6.1.2.1.4.31.1.1.46.1 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.4.31.1.1.46.2 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.4.31.3.1.3.1.4 = Counter32: 18427706
+.1.3.6.1.2.1.4.31.3.1.3.1.5 = Counter32: 77915945
+.1.3.6.1.2.1.4.31.3.1.3.1.6 = Counter32: 19729915
+.1.3.6.1.2.1.4.31.3.1.4.1.4 = Counter64: 18427709
+.1.3.6.1.2.1.4.31.3.1.4.1.5 = Counter64: 77915945
+.1.3.6.1.2.1.4.31.3.1.4.1.6 = Counter64: 19729915
+.1.3.6.1.2.1.4.31.3.1.5.1.4 = Counter32: 2709331664
+.1.3.6.1.2.1.4.31.3.1.5.1.5 = Counter32: 1432966152
+.1.3.6.1.2.1.4.31.3.1.5.1.6 = Counter32: 426409046
+.1.3.6.1.2.1.4.31.3.1.6.1.4 = Counter64: 2709331931
+.1.3.6.1.2.1.4.31.3.1.6.1.5 = Counter64: 1432966152
+.1.3.6.1.2.1.4.31.3.1.6.1.6 = Counter64: 426409046
+.1.3.6.1.2.1.4.31.3.1.7.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.7.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.7.1.6 = Counter32: 42
+.1.3.6.1.2.1.4.31.3.1.8.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.8.1.5 = Counter32: 34
+.1.3.6.1.2.1.4.31.3.1.8.1.6 = Counter32: 1
+.1.3.6.1.2.1.4.31.3.1.9.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.9.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.9.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.10.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.10.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.10.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.11.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.11.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.11.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.12.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.12.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.12.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.13.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.13.1.5 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.13.1.6 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.14.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.14.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.14.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.15.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.15.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.15.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.16.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.16.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.16.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.17.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.17.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.17.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.18.1.4 = Counter32: 18420281
+.1.3.6.1.2.1.4.31.3.1.18.1.5 = Counter32: 149218
+.1.3.6.1.2.1.4.31.3.1.18.1.6 = Counter32: 11896601
+.1.3.6.1.2.1.4.31.3.1.19.1.4 = Counter64: 18420284
+.1.3.6.1.2.1.4.31.3.1.19.1.5 = Counter64: 149218
+.1.3.6.1.2.1.4.31.3.1.19.1.6 = Counter64: 11896601
+.1.3.6.1.2.1.4.31.3.1.20.1.4 = Counter32: 27029001
+.1.3.6.1.2.1.4.31.3.1.20.1.5 = Counter32: 236392
+.1.3.6.1.2.1.4.31.3.1.20.1.6 = Counter32: 357245
+.1.3.6.1.2.1.4.31.3.1.21.1.4 = Counter64: 27029005
+.1.3.6.1.2.1.4.31.3.1.21.1.5 = Counter64: 236392
+.1.3.6.1.2.1.4.31.3.1.21.1.6 = Counter64: 357245
+.1.3.6.1.2.1.4.31.3.1.23.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.23.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.23.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.24.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.24.1.5 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.24.1.6 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.25.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.25.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.25.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.26.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.26.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.26.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.27.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.27.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.27.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.28.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.28.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.28.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.29.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.29.1.5 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.29.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.30.1.4 = Counter32: 27506376
+.1.3.6.1.2.1.4.31.3.1.30.1.5 = Counter32: 8069668
+.1.3.6.1.2.1.4.31.3.1.30.1.6 = Counter32: 77222745
+.1.3.6.1.2.1.4.31.3.1.31.1.4 = Counter64: 27506379
+.1.3.6.1.2.1.4.31.3.1.31.1.5 = Counter64: 8069668
+.1.3.6.1.2.1.4.31.3.1.31.1.6 = Counter64: 77222745
+.1.3.6.1.2.1.4.31.3.1.32.1.4 = Counter32: 4271431389
+.1.3.6.1.2.1.4.31.3.1.32.1.5 = Counter32: 3847393981
+.1.3.6.1.2.1.4.31.3.1.32.1.6 = Counter32: 684959770
+.1.3.6.1.2.1.4.31.3.1.33.1.4 = Counter64: 4271431670
+.1.3.6.1.2.1.4.31.3.1.33.1.5 = Counter64: 3847393981
+.1.3.6.1.2.1.4.31.3.1.33.1.6 = Counter64: 684959770
+.1.3.6.1.2.1.4.31.3.1.34.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.34.1.5 = Counter32: 149067
+.1.3.6.1.2.1.4.31.3.1.34.1.6 = Counter32: 148896
+.1.3.6.1.2.1.4.31.3.1.35.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.35.1.5 = Counter64: 149067
+.1.3.6.1.2.1.4.31.3.1.35.1.6 = Counter64: 148896
+.1.3.6.1.2.1.4.31.3.1.36.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.36.1.5 = Counter32: 9853120
+.1.3.6.1.2.1.4.31.3.1.36.1.6 = Counter32: 8943598
+.1.3.6.1.2.1.4.31.3.1.37.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.37.1.5 = Counter64: 9853120
+.1.3.6.1.2.1.4.31.3.1.37.1.6 = Counter64: 8943598
+.1.3.6.1.2.1.4.31.3.1.38.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.38.1.5 = Counter32: 149175
+.1.3.6.1.2.1.4.31.3.1.38.1.6 = Counter32: 149143
+.1.3.6.1.2.1.4.31.3.1.39.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.39.1.5 = Counter64: 149175
+.1.3.6.1.2.1.4.31.3.1.39.1.6 = Counter64: 149143
+.1.3.6.1.2.1.4.31.3.1.40.1.4 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.40.1.5 = Counter32: 8960125
+.1.3.6.1.2.1.4.31.3.1.40.1.6 = Counter32: 8959752
+.1.3.6.1.2.1.4.31.3.1.41.1.4 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.41.1.5 = Counter64: 8960125
+.1.3.6.1.2.1.4.31.3.1.41.1.6 = Counter64: 8959752
+.1.3.6.1.2.1.4.31.3.1.42.1.4 = Counter32: 505027
+.1.3.6.1.2.1.4.31.3.1.42.1.5 = Counter32: 3
+.1.3.6.1.2.1.4.31.3.1.42.1.6 = Counter32: 0
+.1.3.6.1.2.1.4.31.3.1.43.1.4 = Counter64: 505027
+.1.3.6.1.2.1.4.31.3.1.43.1.5 = Counter64: 3
+.1.3.6.1.2.1.4.31.3.1.43.1.6 = Counter64: 0
+.1.3.6.1.2.1.4.31.3.1.44.1.4 = Counter32: 9
+.1.3.6.1.2.1.4.31.3.1.44.1.5 = Counter32: 9
+.1.3.6.1.2.1.4.31.3.1.44.1.6 = Counter32: 9
+.1.3.6.1.2.1.4.31.3.1.45.1.4 = Counter64: 9
+.1.3.6.1.2.1.4.31.3.1.45.1.5 = Counter64: 9
+.1.3.6.1.2.1.4.31.3.1.45.1.6 = Counter64: 9
+.1.3.6.1.2.1.4.31.3.1.46.1.4 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.4.31.3.1.46.1.5 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.4.31.3.1.46.1.6 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.4.32.1.5.4.1.4.172.17.1.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.5.5.1.4.10.0.3.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.5.6.1.4.10.0.1.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.6.4.1.4.172.17.1.0.24 = INTEGER: 1
+.1.3.6.1.2.1.4.32.1.6.5.1.4.10.0.3.0.24 = INTEGER: 1
+.1.3.6.1.2.1.4.32.1.6.6.1.4.10.0.1.0.24 = INTEGER: 1
+.1.3.6.1.2.1.4.32.1.7.4.1.4.172.17.1.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.7.5.1.4.10.0.3.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.7.6.1.4.10.0.1.0.24 = INTEGER: 2
+.1.3.6.1.2.1.4.32.1.8.4.1.4.172.17.1.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.32.1.8.5.1.4.10.0.3.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.32.1.8.6.1.4.10.0.1.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.32.1.9.4.1.4.172.17.1.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.32.1.9.5.1.4.10.0.3.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.32.1.9.6.1.4.10.0.1.0.24 = Gauge32: 4294967295
+.1.3.6.1.2.1.4.33.0 = INTEGER: 0
+.1.3.6.1.2.1.4.34.1.3.1.4.10.0.1.105 = INTEGER: 6
+.1.3.6.1.2.1.4.34.1.3.1.4.10.0.3.105 = INTEGER: 5
+.1.3.6.1.2.1.4.34.1.3.1.4.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.34.1.4.1.4.10.0.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.4.1.4.10.0.3.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.4.1.4.172.17.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.5.1.4.10.0.1.105 = OID: .1.3.6.1.2.1.4.32.1.5.6.1.4.10.0.1.0.24
+.1.3.6.1.2.1.4.34.1.5.1.4.10.0.3.105 = OID: .1.3.6.1.2.1.4.32.1.5.5.1.4.10.0.3.0.24
+.1.3.6.1.2.1.4.34.1.5.1.4.172.17.1.105 = OID: .1.3.6.1.2.1.4.32.1.5.4.1.4.172.17.1.0.24
+.1.3.6.1.2.1.4.34.1.6.1.4.10.0.1.105 = INTEGER: 2
+.1.3.6.1.2.1.4.34.1.6.1.4.10.0.3.105 = INTEGER: 2
+.1.3.6.1.2.1.4.34.1.6.1.4.172.17.1.105 = INTEGER: 2
+.1.3.6.1.2.1.4.34.1.7.1.4.10.0.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.7.1.4.10.0.3.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.7.1.4.172.17.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.8.1.4.10.0.1.105 = Timeticks: (5919) 0:00:59.19
+.1.3.6.1.2.1.4.34.1.8.1.4.10.0.3.105 = Timeticks: (5706) 0:00:57.06
+.1.3.6.1.2.1.4.34.1.8.1.4.172.17.1.105 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.34.1.9.1.4.10.0.1.105 = Timeticks: (5919) 0:00:59.19
+.1.3.6.1.2.1.4.34.1.9.1.4.10.0.3.105 = Timeticks: (5706) 0:00:57.06
+.1.3.6.1.2.1.4.34.1.9.1.4.172.17.1.105 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.34.1.10.1.4.10.0.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.10.1.4.10.0.3.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.10.1.4.172.17.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.34.1.11.1.4.10.0.1.105 = INTEGER: 3
+.1.3.6.1.2.1.4.34.1.11.1.4.10.0.3.105 = INTEGER: 3
+.1.3.6.1.2.1.4.34.1.11.1.4.172.17.1.105 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.1 = Hex-STRING: 34 62 88 93 65 75 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.25 = Hex-STRING: 00 11 32 24 89 95 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.32 = Hex-STRING: 00 50 56 B6 FB C9 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.33 = Hex-STRING: 00 50 56 B6 44 05 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.35 = Hex-STRING: 00 50 56 B6 2C 0C 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.41 = Hex-STRING: 00 50 56 98 CE A5 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.48 = Hex-STRING: 00 50 56 98 C7 42 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.52 = Hex-STRING: 00 0C 29 8D 6C 51 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.53 = Hex-STRING: 00 0C 29 7C 38 89 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.54 = Hex-STRING: 00 0C 29 48 77 B4 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.55 = Hex-STRING: 00 0C 29 BC CC 1B 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.56 = Hex-STRING: 00 0C 29 2E E2 16 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.62 = Hex-STRING: 00 50 56 98 07 11 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.69 = Hex-STRING: 00 50 56 98 C3 A1 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.97 = Hex-STRING: 00 50 56 98 51 DC 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.102 = Hex-STRING: 20 BB C0 29 10 42 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.103 = Hex-STRING: 20 BB C0 29 0D C2 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.105 = Hex-STRING: B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.106 = Hex-STRING: 4C 4E 35 C3 7A A9 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.107 = Hex-STRING: B0 FA EB 71 B4 B0 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.112 = Hex-STRING: 7C AD 74 BE 21 1D 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.113 = Hex-STRING: 7C AD 74 D5 F9 93 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.116 = Hex-STRING: 6C 20 56 CD 41 7F 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.122 = Hex-STRING: 64 12 25 A2 F2 A1 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.128 = Hex-STRING: 7C AD 74 40 1D 14 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.193 = Hex-STRING: 00 1B D4 9D 0D CA 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.197 = Hex-STRING: 54 75 D0 6D 3B 83 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.214 = Hex-STRING: 20 BB C0 5F 10 C0 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.216 = Hex-STRING: 54 75 D0 6D 46 C3 
+.1.3.6.1.2.1.4.35.1.4.4.1.4.172.17.1.218 = Hex-STRING: 00 50 56 98 10 80 
+.1.3.6.1.2.1.4.35.1.4.5.1.4.10.0.3.102 = Hex-STRING: 20 BB C0 29 10 41 
+.1.3.6.1.2.1.4.35.1.4.5.1.4.10.0.3.105 = Hex-STRING: B0 FA EB 71 BD C1 
+.1.3.6.1.2.1.4.35.1.4.6.1.4.10.0.1.105 = Hex-STRING: B0 FA EB 71 BD C2 
+.1.3.6.1.2.1.4.35.1.4.6.1.4.10.0.1.106 = Hex-STRING: 4C 4E 35 BA 3F 21 
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.1 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.25 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.32 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.33 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.35 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.41 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.48 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.52 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.53 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.54 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.55 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.56 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.62 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.69 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.97 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.102 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.103 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.105 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.106 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.107 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.112 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.113 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.116 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.122 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.128 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.193 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.197 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.214 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.216 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.4.1.4.172.17.1.218 = Timeticks: (4838) 0:00:48.38
+.1.3.6.1.2.1.4.35.1.5.5.1.4.10.0.3.102 = Timeticks: (5706) 0:00:57.06
+.1.3.6.1.2.1.4.35.1.5.5.1.4.10.0.3.105 = Timeticks: (5706) 0:00:57.06
+.1.3.6.1.2.1.4.35.1.5.6.1.4.10.0.1.105 = Timeticks: (5919) 0:00:59.19
+.1.3.6.1.2.1.4.35.1.5.6.1.4.10.0.1.106 = Timeticks: (5919) 0:00:59.19
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.1 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.25 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.32 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.33 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.35 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.41 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.48 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.52 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.53 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.54 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.55 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.56 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.62 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.69 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.97 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.102 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.103 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.107 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.112 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.113 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.116 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.122 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.128 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.193 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.197 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.214 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.216 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.4.1.4.172.17.1.218 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.5.1.4.10.0.3.102 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.6.5.1.4.10.0.3.105 = INTEGER: 4
+.1.3.6.1.2.1.4.35.1.6.6.1.4.10.0.1.105 = INTEGER: 4
+.1.3.6.1.2.1.4.35.1.6.6.1.4.10.0.1.106 = INTEGER: 3
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.1 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.25 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.32 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.33 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.35 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.41 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.48 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.52 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.53 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.54 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.55 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.56 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.62 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.69 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.97 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.102 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.103 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.105 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.107 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.112 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.113 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.116 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.122 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.128 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.193 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.197 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.214 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.216 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.4.1.4.172.17.1.218 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.5.1.4.10.0.3.102 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.5.1.4.10.0.3.105 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.6.1.4.10.0.1.105 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.7.6.1.4.10.0.1.106 = INTEGER: 6
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.1 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.25 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.32 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.33 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.35 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.41 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.48 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.52 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.53 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.54 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.55 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.56 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.62 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.69 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.97 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.102 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.103 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.106 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.107 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.112 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.113 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.116 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.122 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.128 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.193 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.197 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.214 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.216 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.4.1.4.172.17.1.218 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.5.1.4.10.0.3.102 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.5.1.4.10.0.3.105 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.6.1.4.10.0.1.105 = INTEGER: 1
+.1.3.6.1.2.1.4.35.1.8.6.1.4.10.0.1.106 = INTEGER: 1
+.1.3.6.1.2.1.5.1.0 = Counter32: 1260256
+.1.3.6.1.2.1.5.2.0 = Counter32: 0
+.1.3.6.1.2.1.5.3.0 = Counter32: 1132719
+.1.3.6.1.2.1.5.4.0 = Counter32: 180
+.1.3.6.1.2.1.5.5.0 = Counter32: 0
+.1.3.6.1.2.1.5.6.0 = Counter32: 0
+.1.3.6.1.2.1.5.7.0 = Counter32: 0
+.1.3.6.1.2.1.5.8.0 = Counter32: 127357
+.1.3.6.1.2.1.5.9.0 = Counter32: 0
+.1.3.6.1.2.1.5.10.0 = Counter32: 0
+.1.3.6.1.2.1.5.11.0 = Counter32: 0
+.1.3.6.1.2.1.5.12.0 = Counter32: 0
+.1.3.6.1.2.1.5.13.0 = Counter32: 0
+.1.3.6.1.2.1.5.14.0 = Counter32: 283006
+.1.3.6.1.2.1.5.15.0 = Counter32: 0
+.1.3.6.1.2.1.5.16.0 = Counter32: 144059
+.1.3.6.1.2.1.5.17.0 = Counter32: 42
+.1.3.6.1.2.1.5.18.0 = Counter32: 0
+.1.3.6.1.2.1.5.19.0 = Counter32: 0
+.1.3.6.1.2.1.5.20.0 = Counter32: 0
+.1.3.6.1.2.1.5.21.0 = Counter32: 11593
+.1.3.6.1.2.1.5.22.0 = Counter32: 127357
+.1.3.6.1.2.1.5.23.0 = Counter32: 0
+.1.3.6.1.2.1.5.24.0 = Counter32: 0
+.1.3.6.1.2.1.5.25.0 = Counter32: 0
+.1.3.6.1.2.1.5.26.0 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.2.1 = Counter32: 1260256
+.1.3.6.1.2.1.5.29.1.2.2 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.3.1 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.3.2 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.4.1 = Counter32: 283006
+.1.3.6.1.2.1.5.29.1.4.2 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.5.1 = Counter32: 0
+.1.3.6.1.2.1.5.29.1.5.2 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.0 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.1 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.2 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.3 = Counter32: 1132719
+.1.3.6.1.2.1.5.30.1.3.1.4 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.5 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.6 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.7 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.8 = Counter32: 127357
+.1.3.6.1.2.1.5.30.1.3.1.9 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.10 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.11 = Counter32: 180
+.1.3.6.1.2.1.5.30.1.3.1.12 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.13 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.14 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.15 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.16 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.17 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.18 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.19 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.20 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.21 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.22 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.23 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.24 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.25 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.26 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.27 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.28 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.29 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.30 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.31 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.32 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.33 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.34 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.35 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.36 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.37 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.38 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.39 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.40 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.41 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.42 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.43 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.44 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.45 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.46 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.47 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.48 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.49 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.50 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.51 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.52 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.53 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.54 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.55 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.56 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.57 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.58 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.59 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.60 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.61 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.62 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.63 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.64 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.65 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.66 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.67 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.68 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.69 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.70 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.71 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.72 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.73 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.74 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.75 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.76 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.77 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.78 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.79 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.80 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.81 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.82 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.83 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.84 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.85 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.86 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.87 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.88 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.89 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.90 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.91 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.92 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.93 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.94 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.95 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.96 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.97 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.98 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.99 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.100 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.101 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.102 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.103 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.104 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.105 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.106 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.107 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.108 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.109 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.110 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.111 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.112 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.113 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.114 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.115 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.116 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.117 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.118 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.119 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.120 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.121 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.122 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.123 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.124 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.125 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.126 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.127 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.128 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.129 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.130 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.131 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.132 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.133 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.134 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.135 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.136 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.137 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.138 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.139 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.140 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.141 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.142 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.143 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.144 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.145 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.146 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.147 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.148 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.149 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.150 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.151 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.152 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.153 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.154 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.155 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.156 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.157 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.158 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.159 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.160 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.161 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.162 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.163 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.164 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.165 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.166 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.167 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.168 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.169 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.170 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.171 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.172 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.173 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.174 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.175 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.176 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.177 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.178 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.179 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.180 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.181 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.182 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.183 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.184 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.185 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.186 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.187 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.188 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.189 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.190 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.191 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.192 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.193 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.194 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.195 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.196 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.197 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.198 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.199 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.200 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.201 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.202 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.203 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.204 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.205 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.206 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.207 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.208 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.209 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.210 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.211 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.212 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.213 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.214 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.215 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.216 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.217 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.218 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.219 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.220 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.221 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.222 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.223 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.224 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.225 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.226 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.227 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.228 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.229 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.230 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.231 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.232 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.233 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.234 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.235 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.236 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.237 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.238 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.239 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.240 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.241 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.242 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.243 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.244 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.245 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.246 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.247 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.248 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.249 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.250 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.251 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.252 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.253 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.254 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.1.255 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.0 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.1 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.2 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.3 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.4 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.5 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.6 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.7 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.8 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.9 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.10 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.11 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.12 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.13 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.14 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.15 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.16 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.17 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.18 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.19 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.20 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.21 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.22 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.23 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.24 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.25 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.26 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.27 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.28 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.29 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.30 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.31 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.32 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.33 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.34 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.35 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.36 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.37 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.38 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.39 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.40 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.41 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.42 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.43 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.44 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.45 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.46 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.47 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.48 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.49 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.50 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.51 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.52 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.53 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.54 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.55 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.56 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.57 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.58 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.59 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.60 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.61 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.62 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.63 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.64 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.65 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.66 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.67 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.68 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.69 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.70 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.71 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.72 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.73 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.74 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.75 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.76 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.77 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.78 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.79 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.80 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.81 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.82 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.83 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.84 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.85 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.86 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.87 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.88 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.89 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.90 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.91 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.92 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.93 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.94 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.95 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.96 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.97 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.98 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.99 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.100 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.101 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.102 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.103 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.104 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.105 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.106 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.107 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.108 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.109 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.110 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.111 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.112 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.113 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.114 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.115 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.116 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.117 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.118 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.119 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.120 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.121 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.122 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.123 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.124 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.125 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.126 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.127 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.128 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.129 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.130 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.131 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.132 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.133 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.134 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.135 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.136 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.137 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.138 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.139 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.140 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.141 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.142 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.143 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.144 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.145 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.146 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.147 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.148 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.149 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.150 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.151 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.152 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.153 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.154 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.155 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.156 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.157 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.158 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.159 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.160 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.161 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.162 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.163 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.164 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.165 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.166 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.167 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.168 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.169 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.170 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.171 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.172 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.173 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.174 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.175 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.176 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.177 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.178 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.179 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.180 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.181 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.182 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.183 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.184 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.185 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.186 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.187 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.188 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.189 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.190 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.191 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.192 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.193 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.194 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.195 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.196 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.197 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.198 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.199 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.200 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.201 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.202 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.203 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.204 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.205 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.206 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.207 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.208 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.209 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.210 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.211 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.212 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.213 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.214 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.215 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.216 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.217 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.218 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.219 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.220 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.221 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.222 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.223 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.224 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.225 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.226 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.227 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.228 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.229 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.230 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.231 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.232 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.233 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.234 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.235 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.236 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.237 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.238 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.239 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.240 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.241 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.242 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.243 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.244 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.245 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.246 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.247 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.248 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.249 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.250 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.251 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.252 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.253 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.254 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.3.2.255 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.0 = Counter32: 127357
+.1.3.6.1.2.1.5.30.1.4.1.1 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.2 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.3 = Counter32: 144059
+.1.3.6.1.2.1.5.30.1.4.1.4 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.5 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.6 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.7 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.8 = Counter32: 11593
+.1.3.6.1.2.1.5.30.1.4.1.9 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.10 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.11 = Counter32: 42
+.1.3.6.1.2.1.5.30.1.4.1.12 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.13 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.14 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.15 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.16 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.17 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.18 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.19 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.20 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.21 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.22 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.23 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.24 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.25 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.26 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.27 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.28 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.29 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.30 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.31 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.32 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.33 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.34 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.35 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.36 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.37 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.38 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.39 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.40 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.41 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.42 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.43 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.44 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.45 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.46 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.47 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.48 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.49 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.50 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.51 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.52 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.53 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.54 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.55 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.56 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.57 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.58 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.59 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.60 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.61 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.62 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.63 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.64 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.65 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.66 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.67 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.68 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.69 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.70 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.71 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.72 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.73 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.74 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.75 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.76 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.77 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.78 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.79 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.80 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.81 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.82 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.83 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.84 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.85 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.86 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.87 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.88 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.89 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.90 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.91 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.92 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.93 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.94 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.95 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.96 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.97 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.98 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.99 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.100 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.101 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.102 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.103 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.104 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.105 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.106 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.107 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.108 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.109 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.110 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.111 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.112 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.113 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.114 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.115 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.116 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.117 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.118 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.119 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.120 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.121 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.122 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.123 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.124 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.125 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.126 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.127 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.128 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.129 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.130 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.131 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.132 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.133 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.134 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.135 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.136 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.137 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.138 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.139 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.140 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.141 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.142 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.143 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.144 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.145 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.146 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.147 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.148 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.149 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.150 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.151 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.152 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.153 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.154 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.155 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.156 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.157 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.158 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.159 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.160 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.161 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.162 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.163 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.164 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.165 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.166 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.167 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.168 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.169 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.170 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.171 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.172 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.173 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.174 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.175 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.176 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.177 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.178 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.179 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.180 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.181 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.182 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.183 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.184 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.185 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.186 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.187 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.188 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.189 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.190 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.191 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.192 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.193 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.194 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.195 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.196 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.197 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.198 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.199 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.200 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.201 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.202 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.203 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.204 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.205 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.206 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.207 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.208 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.209 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.210 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.211 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.212 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.213 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.214 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.215 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.216 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.217 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.218 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.219 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.220 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.221 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.222 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.223 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.224 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.225 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.226 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.227 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.228 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.229 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.230 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.231 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.232 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.233 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.234 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.235 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.236 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.237 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.238 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.239 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.240 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.241 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.242 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.243 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.244 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.245 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.246 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.247 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.248 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.249 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.250 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.251 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.252 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.253 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.254 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.1.255 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.0 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.1 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.2 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.3 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.4 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.5 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.6 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.7 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.8 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.9 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.10 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.11 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.12 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.13 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.14 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.15 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.16 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.17 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.18 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.19 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.20 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.21 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.22 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.23 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.24 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.25 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.26 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.27 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.28 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.29 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.30 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.31 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.32 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.33 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.34 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.35 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.36 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.37 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.38 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.39 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.40 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.41 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.42 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.43 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.44 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.45 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.46 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.47 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.48 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.49 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.50 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.51 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.52 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.53 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.54 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.55 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.56 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.57 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.58 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.59 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.60 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.61 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.62 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.63 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.64 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.65 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.66 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.67 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.68 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.69 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.70 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.71 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.72 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.73 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.74 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.75 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.76 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.77 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.78 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.79 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.80 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.81 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.82 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.83 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.84 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.85 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.86 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.87 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.88 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.89 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.90 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.91 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.92 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.93 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.94 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.95 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.96 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.97 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.98 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.99 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.100 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.101 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.102 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.103 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.104 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.105 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.106 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.107 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.108 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.109 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.110 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.111 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.112 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.113 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.114 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.115 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.116 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.117 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.118 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.119 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.120 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.121 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.122 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.123 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.124 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.125 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.126 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.127 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.128 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.129 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.130 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.131 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.132 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.133 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.134 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.135 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.136 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.137 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.138 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.139 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.140 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.141 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.142 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.143 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.144 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.145 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.146 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.147 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.148 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.149 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.150 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.151 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.152 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.153 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.154 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.155 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.156 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.157 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.158 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.159 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.160 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.161 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.162 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.163 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.164 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.165 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.166 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.167 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.168 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.169 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.170 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.171 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.172 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.173 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.174 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.175 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.176 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.177 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.178 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.179 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.180 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.181 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.182 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.183 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.184 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.185 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.186 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.187 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.188 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.189 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.190 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.191 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.192 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.193 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.194 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.195 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.196 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.197 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.198 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.199 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.200 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.201 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.202 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.203 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.204 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.205 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.206 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.207 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.208 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.209 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.210 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.211 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.212 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.213 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.214 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.215 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.216 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.217 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.218 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.219 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.220 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.221 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.222 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.223 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.224 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.225 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.226 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.227 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.228 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.229 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.230 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.231 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.232 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.233 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.234 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.235 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.236 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.237 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.238 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.239 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.240 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.241 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.242 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.243 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.244 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.245 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.246 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.247 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.248 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.249 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.250 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.251 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.252 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.253 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.254 = Counter32: 0
+.1.3.6.1.2.1.5.30.1.4.2.255 = Counter32: 0
+.1.3.6.1.2.1.6.1.0 = INTEGER: 5
+.1.3.6.1.2.1.6.2.0 = INTEGER: 1000
+.1.3.6.1.2.1.6.3.0 = INTEGER: 60000
+.1.3.6.1.2.1.6.4.0 = INTEGER: -1
+.1.3.6.1.2.1.6.5.0 = Counter32: 0
+.1.3.6.1.2.1.6.6.0 = Counter32: 210
+.1.3.6.1.2.1.6.7.0 = Counter32: 0
+.1.3.6.1.2.1.6.8.0 = Counter32: 8
+.1.3.6.1.2.1.6.9.0 = Gauge32: 0
+.1.3.6.1.2.1.6.10.0 = Counter32: 45747
+.1.3.6.1.2.1.6.11.0 = Counter32: 83002
+.1.3.6.1.2.1.6.12.0 = Counter32: 0
+.1.3.6.1.2.1.6.14.0 = Counter32: 0
+.1.3.6.1.2.1.6.15.0 = Counter32: 400
+.1.3.6.1.2.1.6.17.0 = Counter64: 45747
+.1.3.6.1.2.1.6.18.0 = Counter64: 83002
+.1.3.6.1.2.1.7.1.0 = Counter32: 26867506
+.1.3.6.1.2.1.7.2.0 = Counter32: 1996036
+.1.3.6.1.2.1.7.3.0 = Counter32: 0
+.1.3.6.1.2.1.7.4.0 = Counter32: 26959754
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.162 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.1167 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.1698 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.1967 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.5000 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.18999 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.10.0.1.105.57860 = IpAddress: 10.0.1.105
+.1.3.6.1.2.1.7.5.1.1.172.17.1.105.161 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.7.5.1.1.172.17.1.105.53229 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.7.5.1.1.172.17.1.105.60493 = IpAddress: 172.17.1.105
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.162 = INTEGER: 162
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.1167 = INTEGER: 1167
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.1698 = INTEGER: 1698
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.1967 = INTEGER: 1967
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.5000 = INTEGER: 5000
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.18999 = INTEGER: 18999
+.1.3.6.1.2.1.7.5.1.2.10.0.1.105.57860 = INTEGER: 57860
+.1.3.6.1.2.1.7.5.1.2.172.17.1.105.161 = INTEGER: 161
+.1.3.6.1.2.1.7.5.1.2.172.17.1.105.53229 = INTEGER: 53229
+.1.3.6.1.2.1.7.5.1.2.172.17.1.105.60493 = INTEGER: 60493
+.1.3.6.1.2.1.7.7.1.8.0.0.161.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.0.0.162.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.0.0.1698.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.0.0.54318.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.0.0.57860.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.162.1.4.0.0.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.1167.1.4.0.0.0.0.0.1 = Gauge32: 397
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.1698.1.4.0.0.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.1967.1.4.0.0.0.0.0.1 = Gauge32: 398
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.5000.1.4.172.17.1.106.51738.1 = Gauge32: 398
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.18999.1.4.0.0.0.0.0.1 = Gauge32: 374
+.1.3.6.1.2.1.7.7.1.8.1.4.10.0.1.105.57860.1.4.0.0.0.0.0.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.172.17.1.105.161.1.4.172.17.1.41.43946.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.172.17.1.105.53229.1.4.172.17.101.141.2055.1 = Gauge32: 0
+.1.3.6.1.2.1.7.7.1.8.1.4.172.17.1.105.60493.1.4.172.17.101.141.2055.1 = Gauge32: 0
+.1.3.6.1.2.1.7.8.0 = Counter64: 26867545
+.1.3.6.1.2.1.7.9.0 = Counter64: 26959791
+.1.3.6.1.2.1.10.7.2.1.1.1 = INTEGER: 1
+.1.3.6.1.2.1.10.7.2.1.1.2 = INTEGER: 2
+.1.3.6.1.2.1.10.7.2.1.1.3 = INTEGER: 3
+.1.3.6.1.2.1.10.7.2.1.1.4 = INTEGER: 4
+.1.3.6.1.2.1.10.7.2.1.1.5 = INTEGER: 5
+.1.3.6.1.2.1.10.7.2.1.1.6 = INTEGER: 6
+.1.3.6.1.2.1.10.7.2.1.1.9 = INTEGER: 9
+.1.3.6.1.2.1.10.7.2.1.2.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.2.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.3.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.4.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.5.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.6.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.7.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.8.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.9.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.10.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.11.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.11.2 = Counter32: 2
+.1.3.6.1.2.1.10.7.2.1.11.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.11.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.11.5 = Counter32: 1
+.1.3.6.1.2.1.10.7.2.1.11.6 = Counter32: 2
+.1.3.6.1.2.1.10.7.2.1.11.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.13.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.16.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.17.1 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.2 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.3 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.4 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.5 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.6 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.17.9 = OID: .0.0
+.1.3.6.1.2.1.10.7.2.1.18.1 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.2 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.3 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.4 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.5 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.6 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.18.9 = Counter32: 0
+.1.3.6.1.2.1.10.7.2.1.19.1 = INTEGER: 3
+.1.3.6.1.2.1.10.7.2.1.19.2 = INTEGER: 1
+.1.3.6.1.2.1.10.7.2.1.19.3 = INTEGER: 1
+.1.3.6.1.2.1.10.7.2.1.19.4 = INTEGER: 3
+.1.3.6.1.2.1.10.7.2.1.19.5 = INTEGER: 3
+.1.3.6.1.2.1.10.7.2.1.19.6 = INTEGER: 3
+.1.3.6.1.2.1.10.7.2.1.19.9 = INTEGER: 1
+.1.3.6.1.2.1.10.20.1.3.1.0 = INTEGER: 1
+.1.3.6.1.2.1.10.20.1.4.1.0 = INTEGER: 1
+.1.3.6.1.2.1.10.32.4.1.0 = INTEGER: 2
+.1.3.6.1.2.1.10.33.1.0 = INTEGER: 0
+.1.3.6.1.2.1.10.39.1.1.2.0 = INTEGER: 2
+.1.3.6.1.2.1.10.166.2.1.1.1.2.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.3.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.4.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.5.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.6.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.7.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.1.1.8.0 = Hex-STRING: 80 
+.1.3.6.1.2.1.10.166.2.1.2.1.1.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.2.1.2.0 = Counter32: 0
+.1.3.6.1.2.1.10.166.2.1.2.1.3.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.2.1.2.1.4.0 = Counter32: 0
+.1.3.6.1.2.1.10.166.2.1.3.0 = ""
+.1.3.6.1.2.1.10.166.2.1.6.0 = ""
+.1.3.6.1.2.1.10.166.2.1.9.0 = ""
+.1.3.6.1.2.1.10.166.2.1.11.0 = Gauge32: 6
+.1.3.6.1.2.1.10.166.2.1.12.0 = ""
+.1.3.6.1.2.1.10.166.2.1.15.0 = INTEGER: 2
+.1.3.6.1.2.1.10.166.4.1.1.1.0 = Hex-STRING: 00 00 00 00 
+.1.3.6.1.2.1.10.166.4.1.1.2.0 = INTEGER: 5
+.1.3.6.1.2.1.10.166.4.1.2.1.0 = Timeticks: (68224555) 7 days, 21:30:45.55
+.1.3.6.1.2.1.10.166.4.1.2.2.0 = Gauge32: 0
+.1.3.6.1.2.1.10.166.4.1.3.1.0 = Timeticks: (0) 0:00:00.00
+.1.3.6.1.2.1.10.251.1.6.1.1.0 = Gauge32: 0
+.1.3.6.1.2.1.10.251.1.6.1.2.0 = Gauge32: 0
+.1.3.6.1.2.1.11.1.0 = Counter32: 16827857
+.1.3.6.1.2.1.11.2.0 = Counter32: 16827856
+.1.3.6.1.2.1.11.3.0 = Counter32: 0
+.1.3.6.1.2.1.11.4.0 = Counter32: 1
+.1.3.6.1.2.1.11.5.0 = Counter32: 0
+.1.3.6.1.2.1.11.6.0 = Counter32: 0
+.1.3.6.1.2.1.11.8.0 = Counter32: 0
+.1.3.6.1.2.1.11.9.0 = Counter32: 0
+.1.3.6.1.2.1.11.10.0 = Counter32: 0
+.1.3.6.1.2.1.11.11.0 = Counter32: 0
+.1.3.6.1.2.1.11.12.0 = Counter32: 0
+.1.3.6.1.2.1.11.13.0 = Counter32: 240048
+.1.3.6.1.2.1.11.14.0 = Counter32: 0
+.1.3.6.1.2.1.11.15.0 = Counter32: 116618
+.1.3.6.1.2.1.11.16.0 = Counter32: 122118
+.1.3.6.1.2.1.11.17.0 = Counter32: 0
+.1.3.6.1.2.1.11.18.0 = Counter32: 0
+.1.3.6.1.2.1.11.19.0 = Counter32: 0
+.1.3.6.1.2.1.11.20.0 = Counter32: 0
+.1.3.6.1.2.1.11.21.0 = Counter32: 0
+.1.3.6.1.2.1.11.22.0 = Counter32: 0
+.1.3.6.1.2.1.11.24.0 = Counter32: 0
+.1.3.6.1.2.1.11.25.0 = Counter32: 0
+.1.3.6.1.2.1.11.26.0 = Counter32: 0
+.1.3.6.1.2.1.11.27.0 = Counter32: 0
+.1.3.6.1.2.1.11.28.0 = Counter32: 16827880
+.1.3.6.1.2.1.11.29.0 = Counter32: 0
+.1.3.6.1.2.1.11.30.0 = INTEGER: 2
+.1.3.6.1.2.1.11.31.0 = Counter32: 0
+.1.3.6.1.2.1.11.32.0 = Counter32: 0
+.1.3.6.1.2.1.15.1.0 = Hex-STRING: 10 
+.1.3.6.1.2.1.15.2.0 = INTEGER: 0
+.1.3.6.1.2.1.15.4.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.16.19.1.0 = Hex-STRING: FF C0 00 40 
+.1.3.6.1.2.1.16.19.2.0 = STRING: "15.5(3)M2"
+.1.3.6.1.2.1.16.19.3.0 = ""
+.1.3.6.1.2.1.16.19.4.0 = Hex-STRING: 07 E0 03 0B 07 16 23 00 
+.1.3.6.1.2.1.16.19.5.0 = INTEGER: 1
+.1.3.6.1.2.1.16.19.6.0 = STRING: "flash0:c2900-universalk9-mz.SPA.155-3.M2.bin"
+.1.3.6.1.2.1.16.19.7.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.16.19.8.0 = INTEGER: 1
+.1.3.6.1.2.1.16.19.9.0 = INTEGER: 1
+.1.3.6.1.2.1.16.19.12.0 = IpAddress: 0.0.0.0
+.1.3.6.1.2.1.16.19.15.0 = Hex-STRING: 00 
+.1.3.6.1.2.1.16.19.16.0 = Hex-STRING: 7E 00 
+.1.3.6.1.2.1.17.1.1.0 = Hex-STRING: 00 00 00 00 00 00 
+.1.3.6.1.2.1.17.1.2.0 = INTEGER: 0
+.1.3.6.1.2.1.17.1.3.0 = INTEGER: 4
+.1.3.6.1.2.1.17.7.1.1.1.0 = INTEGER: 1
+.1.3.6.1.2.1.17.7.1.1.2.0 = INTEGER: 0
+.1.3.6.1.2.1.17.7.1.1.3.0 = Gauge32: 0
+.1.3.6.1.2.1.17.7.1.1.4.0 = Gauge32: 0
+.1.3.6.1.2.1.17.7.1.1.5.0 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.1.1 = STRING: "Gi1/0"
+.1.3.6.1.2.1.31.1.1.1.1.2 = STRING: "Gi1/1"
+.1.3.6.1.2.1.31.1.1.1.1.3 = STRING: "Em0/0"
+.1.3.6.1.2.1.31.1.1.1.1.4 = STRING: "Gi0/0"
+.1.3.6.1.2.1.31.1.1.1.1.5 = STRING: "Gi0/1"
+.1.3.6.1.2.1.31.1.1.1.1.6 = STRING: "Gi0/2"
+.1.3.6.1.2.1.31.1.1.1.1.8 = STRING: "Nu0"
+.1.3.6.1.2.1.31.1.1.1.1.9 = STRING: "Vl1"
+.1.3.6.1.2.1.31.1.1.1.1.10 = STRING: "Ba0/3"
+.1.3.6.1.2.1.31.1.1.1.2.1 = Counter32: 34591
+.1.3.6.1.2.1.31.1.1.1.2.2 = Counter32: 61065
+.1.3.6.1.2.1.31.1.1.1.2.3 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.2.4 = Counter32: 171684
+.1.3.6.1.2.1.31.1.1.1.2.5 = Counter32: 160602
+.1.3.6.1.2.1.31.1.1.1.2.6 = Counter32: 161707
+.1.3.6.1.2.1.31.1.1.1.2.8 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.2.9 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.2.10 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.3.1 = Counter32: 34591
+.1.3.6.1.2.1.31.1.1.1.3.2 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.3.3 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.3.4 = Counter32: 1729527
+.1.3.6.1.2.1.31.1.1.1.3.5 = Counter32: 160605
+.1.3.6.1.2.1.31.1.1.1.3.6 = Counter32: 161722
+.1.3.6.1.2.1.31.1.1.1.3.8 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.3.9 = Counter32: 23051
+.1.3.6.1.2.1.31.1.1.1.3.10 = Counter32: 57658
+.1.3.6.1.2.1.31.1.1.1.4.1 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.4.2 = Counter32: 380428
+.1.3.6.1.2.1.31.1.1.1.4.3 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.4.4 = Counter32: 13980
+.1.3.6.1.2.1.31.1.1.1.4.5 = Counter32: 163137
+.1.3.6.1.2.1.31.1.1.1.4.6 = Counter32: 163133
+.1.3.6.1.2.1.31.1.1.1.4.8 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.4.9 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.4.10 = Counter32: 358989
+.1.3.6.1.2.1.31.1.1.1.5.1 = Counter32: 1
+.1.3.6.1.2.1.31.1.1.1.5.2 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.5.3 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.5.4 = Counter32: 14000
+.1.3.6.1.2.1.31.1.1.1.5.5 = Counter32: 163157
+.1.3.6.1.2.1.31.1.1.1.5.6 = Counter32: 163157
+.1.3.6.1.2.1.31.1.1.1.5.8 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.5.9 = Counter32: 0
+.1.3.6.1.2.1.31.1.1.1.5.10 = Counter32: 358989
+.1.3.6.1.2.1.31.1.1.1.6.1 = Counter64: 8619395
+.1.3.6.1.2.1.31.1.1.1.6.2 = Counter64: 14564521
+.1.3.6.1.2.1.31.1.1.1.6.4 = Counter64: 2854799746
+.1.3.6.1.2.1.31.1.1.1.6.5 = Counter64: 91632850478
+.1.3.6.1.2.1.31.1.1.1.6.6 = Counter64: 4714220602
+.1.3.6.1.2.1.31.1.1.1.6.9 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.6.10 = Counter64: 9541630
+.1.3.6.1.2.1.31.1.1.1.7.1 = Counter64: 23051
+.1.3.6.1.2.1.31.1.1.1.7.2 = Counter64: 134191
+.1.3.6.1.2.1.31.1.1.1.7.4 = Counter64: 18066552
+.1.3.6.1.2.1.31.1.1.1.7.5 = Counter64: 77767120
+.1.3.6.1.2.1.31.1.1.1.7.6 = Counter64: 19500542
+.1.3.6.1.2.1.31.1.1.1.7.9 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.7.10 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.8.1 = Counter64: 34591
+.1.3.6.1.2.1.31.1.1.1.8.2 = Counter64: 61065
+.1.3.6.1.2.1.31.1.1.1.8.4 = Counter64: 171684
+.1.3.6.1.2.1.31.1.1.1.8.5 = Counter64: 160602
+.1.3.6.1.2.1.31.1.1.1.8.6 = Counter64: 161707
+.1.3.6.1.2.1.31.1.1.1.8.9 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.8.10 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.9.1 = Counter64: 34591
+.1.3.6.1.2.1.31.1.1.1.9.2 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.9.4 = Counter64: 1729527
+.1.3.6.1.2.1.31.1.1.1.9.5 = Counter64: 160605
+.1.3.6.1.2.1.31.1.1.1.9.6 = Counter64: 161722
+.1.3.6.1.2.1.31.1.1.1.9.9 = Counter64: 23051
+.1.3.6.1.2.1.31.1.1.1.9.10 = Counter64: 57658
+.1.3.6.1.2.1.31.1.1.1.10.1 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.10.2 = Counter64: 29233637
+.1.3.6.1.2.1.31.1.1.1.10.4 = Counter64: 21868152660
+.1.3.6.1.2.1.31.1.1.1.10.5 = Counter64: 3856799383
+.1.3.6.1.2.1.31.1.1.1.10.6 = Counter64: 91617436154
+.1.3.6.1.2.1.31.1.1.1.10.9 = Counter64: 88319
+.1.3.6.1.2.1.31.1.1.1.10.10 = Counter64: 29030317
+.1.3.6.1.2.1.31.1.1.1.11.1 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.11.2 = Counter64: 380428
+.1.3.6.1.2.1.31.1.1.1.11.4 = Counter64: 27928494
+.1.3.6.1.2.1.31.1.1.1.11.5 = Counter64: 7989643
+.1.3.6.1.2.1.31.1.1.1.11.6 = Counter64: 77859272
+.1.3.6.1.2.1.31.1.1.1.11.9 = Counter64: 1147
+.1.3.6.1.2.1.31.1.1.1.11.10 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.12.1 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.12.2 = Counter64: 380428
+.1.3.6.1.2.1.31.1.1.1.12.4 = Counter64: 13980
+.1.3.6.1.2.1.31.1.1.1.12.5 = Counter64: 163137
+.1.3.6.1.2.1.31.1.1.1.12.6 = Counter64: 163133
+.1.3.6.1.2.1.31.1.1.1.12.9 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.12.10 = Counter64: 358989
+.1.3.6.1.2.1.31.1.1.1.13.1 = Counter64: 1
+.1.3.6.1.2.1.31.1.1.1.13.2 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.13.4 = Counter64: 14000
+.1.3.6.1.2.1.31.1.1.1.13.5 = Counter64: 163157
+.1.3.6.1.2.1.31.1.1.1.13.6 = Counter64: 163157
+.1.3.6.1.2.1.31.1.1.1.13.9 = Counter64: 0
+.1.3.6.1.2.1.31.1.1.1.13.10 = Counter64: 358989
+.1.3.6.1.2.1.31.1.1.1.14.1 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.2 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.3 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.4 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.5 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.6 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.8 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.9 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.14.10 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.15.1 = Gauge32: 1000
+.1.3.6.1.2.1.31.1.1.1.15.2 = Gauge32: 1000
+.1.3.6.1.2.1.31.1.1.1.15.3 = Gauge32: 10
+.1.3.6.1.2.1.31.1.1.1.15.4 = Gauge32: 100
+.1.3.6.1.2.1.31.1.1.1.15.5 = Gauge32: 100
+.1.3.6.1.2.1.31.1.1.1.15.6 = Gauge32: 1000
+.1.3.6.1.2.1.31.1.1.1.15.8 = Gauge32: 10000
+.1.3.6.1.2.1.31.1.1.1.15.9 = Gauge32: 100
+.1.3.6.1.2.1.31.1.1.1.15.10 = Gauge32: 1000
+.1.3.6.1.2.1.31.1.1.1.16.1 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.2 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.3 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.4 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.5 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.6 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.8 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.9 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.16.10 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.17.1 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.2 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.3 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.4 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.5 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.6 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.17.8 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.17.9 = INTEGER: 2
+.1.3.6.1.2.1.31.1.1.1.17.10 = INTEGER: 1
+.1.3.6.1.2.1.31.1.1.1.18.1 = ""
+.1.3.6.1.2.1.31.1.1.1.18.2 = STRING: "Internal switch interface connected to Service Module"
+.1.3.6.1.2.1.31.1.1.1.18.3 = ""
+.1.3.6.1.2.1.31.1.1.1.18.4 = STRING: "Connected to MGMT Network"
+.1.3.6.1.2.1.31.1.1.1.18.5 = STRING: "Connected F0/3: catES316PAPN_5-102"
+.1.3.6.1.2.1.31.1.1.1.18.6 = STRING: "Connected to G0/1 cisco1941APN_5-106"
+.1.3.6.1.2.1.31.1.1.1.18.8 = ""
+.1.3.6.1.2.1.31.1.1.1.18.9 = ""
+.1.3.6.1.2.1.31.1.1.1.18.10 = ""
+.1.3.6.1.2.1.31.1.1.1.19.1 = Timeticks: (2146) 0:00:21.46
+.1.3.6.1.2.1.31.1.1.1.19.2 = Timeticks: (2147) 0:00:21.47
+.1.3.6.1.2.1.31.1.1.1.19.3 = Timeticks: (2152) 0:00:21.52
+.1.3.6.1.2.1.31.1.1.1.19.4 = Timeticks: (2152) 0:00:21.52
+.1.3.6.1.2.1.31.1.1.1.19.5 = Timeticks: (2152) 0:00:21.52
+.1.3.6.1.2.1.31.1.1.1.19.6 = Timeticks: (2152) 0:00:21.52
+.1.3.6.1.2.1.31.1.1.1.19.8 = Timeticks: (2806) 0:00:28.06
+.1.3.6.1.2.1.31.1.1.1.19.9 = Timeticks: (3244) 0:00:32.44
+.1.3.6.1.2.1.31.1.1.1.19.10 = Timeticks: (2152) 0:00:21.52
+.1.3.6.1.2.1.31.1.2.1.3.0.1 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.2 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.3 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.4 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.5 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.6 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.8 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.9 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.0.10 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.1.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.2.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.3.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.4.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.5.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.6.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.8.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.9.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.2.1.3.10.0 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.1.6.176.250.235.113.189.240 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.1.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.2.6.0.0.0.0.0.9 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.2.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.3.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.4.6.176.250.235.113.189.192 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.4.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.5.6.176.250.235.113.189.193 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.5.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.6.6.176.250.235.113.189.194 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.6.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.9.6.176.250.235.113.189.195 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.9.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.10.6.176.250.235.113.189.195 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.2.10.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.1.6.176.250.235.113.189.240 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.1.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.2.6.0.0.0.0.0.9 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.2.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.3.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.4.6.176.250.235.113.189.192 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.4.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.5.6.176.250.235.113.189.193 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.5.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.6.6.176.250.235.113.189.194 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.6.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.9.6.176.250.235.113.189.195 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.9.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.10.6.176.250.235.113.189.195 = INTEGER: 1
+.1.3.6.1.2.1.31.1.4.1.3.10.6.255.255.255.255.255.255 = INTEGER: 1
+.1.3.6.1.2.1.31.1.5.0 = Timeticks: (3245) 0:00:32.45
+.1.3.6.1.2.1.31.1.6.0 = Timeticks: (3245) 0:00:32.45
+.1.3.6.1.2.1.34.4.1.7.1.0 = Hex-STRING: 00 
+.1.3.6.1.2.1.34.4.1.7.2.0 = Counter32: 0
+.1.3.6.1.2.1.34.4.1.7.3.0 = Counter32: 0
+.1.3.6.1.2.1.34.4.1.7.4.0 = Counter32: 0
+.1.3.6.1.2.1.34.4.1.7.5.0 = Counter32: 0
+.1.3.6.1.2.1.37.1.5.1.2.0 = OID: .1.3.6.1.2.1.37.1.1.1
+.1.3.6.1.2.1.37.1.5.1.3.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.4.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.5.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.6.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.7.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.8.0 = INTEGER: 0
+.1.3.6.1.2.1.37.1.5.1.9.0 = INTEGER: 1
+.1.3.6.1.2.1.44.1.1.1.0 = Hex-STRING: 00 
+.1.3.6.1.2.1.44.1.1.2.0 = INTEGER: 2
+.1.3.6.1.2.1.44.1.1.3.0 = Hex-STRING: C0 
+.1.3.6.1.2.1.47.1.1.1.1.2.1 = STRING: "CISCO2921/K9 chassis, Hw Serial#: FTX1716AKUU, Hw Revision: 1.0"
+.1.3.6.1.2.1.47.1.1.1.1.2.2 = STRING: "C2921 Chassis Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.3 = STRING: "C2921 Mother board 3GE, integrated VPN and 4W"
+.1.3.6.1.2.1.47.1.1.1.1.2.4 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.5 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.6 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.7 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.8 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.9 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.10 = STRING: "C2921 DaughterCard Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.11 = STRING: "C2921 Chassis Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.12 = STRING: "SM-ES3-16-P: EtherSwitch SM L3 + PoE + 15 10/100 + 1 10/100/1000"
+.1.3.6.1.2.1.47.1.1.1.1.2.13 = STRING: "C2921 ISM Slot"
+.1.3.6.1.2.1.47.1.1.1.1.2.14 = STRING: "PSE2"
+.1.3.6.1.2.1.47.1.1.1.1.2.15 = STRING: "EE Internal Service Module"
+.1.3.6.1.2.1.47.1.1.1.1.2.16 = STRING: "Embedded Service Engine"
+.1.3.6.1.2.1.47.1.1.1.1.2.17 = STRING: "CN Gigabit Ethernet"
+.1.3.6.1.2.1.47.1.1.1.1.2.18 = STRING: "CN Gigabit Ethernet"
+.1.3.6.1.2.1.47.1.1.1.1.2.19 = STRING: "CN Gigabit Ethernet"
+.1.3.6.1.2.1.47.1.1.1.1.2.20 = STRING: "Container of powerSupply Containers"
+.1.3.6.1.2.1.47.1.1.1.1.2.21 = STRING: "Container of Power Supply"
+.1.3.6.1.2.1.47.1.1.1.1.2.22 = STRING: "C2921/C2951 AC Power Supply"
+.1.3.6.1.2.1.47.1.1.1.1.2.23 = STRING: "Container of RPS"
+.1.3.6.1.2.1.47.1.1.1.1.2.24 = STRING: "XFR-1GE SFP Container 0/1"
+.1.3.6.1.2.1.47.1.1.1.1.3.1 = OID: .1.3.6.1.4.1.9.12.3.1.3.806
+.1.3.6.1.2.1.47.1.1.1.1.3.2 = OID: .1.3.6.1.4.1.9.12.3.1.5.1
+.1.3.6.1.2.1.47.1.1.1.1.3.3 = OID: .1.3.6.1.4.1.9.12.3.1.9.5.163
+.1.3.6.1.2.1.47.1.1.1.1.3.4 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.5 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.6 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.7 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.8 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.9 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.10 = OID: .1.3.6.1.4.1.9.12.3.1.5.2
+.1.3.6.1.2.1.47.1.1.1.1.3.11 = OID: .1.3.6.1.4.1.9.12.3.1.5.1
+.1.3.6.1.2.1.47.1.1.1.1.3.12 = OID: .1.3.6.1.4.1.9.12.3.1.9.3.169
+.1.3.6.1.2.1.47.1.1.1.1.3.13 = OID: .1.3.6.1.4.1.9.12.3.1.5.1
+.1.3.6.1.2.1.47.1.1.1.1.3.14 = OID: .1.3.6.1.4.1.9.12.3.1.10.276
+.1.3.6.1.2.1.47.1.1.1.1.3.15 = OID: .1.3.6.1.4.1.9.12.3.1.10.69
+.1.3.6.1.2.1.47.1.1.1.1.3.16 = OID: .1.3.6.1.4.1.9.12.3.1.10.276
+.1.3.6.1.2.1.47.1.1.1.1.3.17 = OID: .1.3.6.1.4.1.9.12.3.1.10.100
+.1.3.6.1.2.1.47.1.1.1.1.3.18 = OID: .1.3.6.1.4.1.9.12.3.1.10.100
+.1.3.6.1.2.1.47.1.1.1.1.3.19 = OID: .1.3.6.1.4.1.9.12.3.1.10.100
+.1.3.6.1.2.1.47.1.1.1.1.3.20 = OID: .1.3.6.1.4.1.9.12.3.1.5.140
+.1.3.6.1.2.1.47.1.1.1.1.3.21 = OID: .1.3.6.1.4.1.9.12.3.1.5.141
+.1.3.6.1.2.1.47.1.1.1.1.3.22 = OID: .1.3.6.1.4.1.9.12.3.1.6.238
+.1.3.6.1.2.1.47.1.1.1.1.3.23 = OID: .1.3.6.1.4.1.9.12.3.1.5.141
+.1.3.6.1.2.1.47.1.1.1.1.3.24 = OID: .1.3.6.1.4.1.9.12.3.1.5.115
+.1.3.6.1.2.1.47.1.1.1.1.4.1 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.4.2 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.4.3 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.4.4 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.5 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.6 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.7 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.8 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.9 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.10 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.11 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.4.12 = INTEGER: 11
+.1.3.6.1.2.1.47.1.1.1.1.4.13 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.4.14 = INTEGER: 12
+.1.3.6.1.2.1.47.1.1.1.1.4.15 = INTEGER: 12
+.1.3.6.1.2.1.47.1.1.1.1.4.16 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.17 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.18 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.19 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.4.20 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.4.21 = INTEGER: 20
+.1.3.6.1.2.1.47.1.1.1.1.4.22 = INTEGER: 21
+.1.3.6.1.2.1.47.1.1.1.1.4.23 = INTEGER: 20
+.1.3.6.1.2.1.47.1.1.1.1.4.24 = INTEGER: 18
+.1.3.6.1.2.1.47.1.1.1.1.5.1 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.5.2 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.3 = INTEGER: 9
+.1.3.6.1.2.1.47.1.1.1.1.5.4 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.5 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.6 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.7 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.8 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.9 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.10 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.11 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.12 = INTEGER: 9
+.1.3.6.1.2.1.47.1.1.1.1.5.13 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.14 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.15 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.16 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.17 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.18 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.19 = INTEGER: 10
+.1.3.6.1.2.1.47.1.1.1.1.5.20 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.21 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.22 = INTEGER: 6
+.1.3.6.1.2.1.47.1.1.1.1.5.23 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.5.24 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.6.1 = INTEGER: -1
+.1.3.6.1.2.1.47.1.1.1.1.6.2 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.3 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.4 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.5 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.6.6 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.6.7 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.6.8 = INTEGER: 4
+.1.3.6.1.2.1.47.1.1.1.1.6.9 = INTEGER: 5
+.1.3.6.1.2.1.47.1.1.1.1.6.10 = INTEGER: 6
+.1.3.6.1.2.1.47.1.1.1.1.6.11 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.6.12 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.13 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.6.14 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.15 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.6.16 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.17 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.6.18 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.6.19 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.6.20 = INTEGER: 3
+.1.3.6.1.2.1.47.1.1.1.1.6.21 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.22 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.6.23 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.6.24 = INTEGER: 0
+.1.3.6.1.2.1.47.1.1.1.1.7.1 = STRING: "CISCO2921/K9"
+.1.3.6.1.2.1.47.1.1.1.1.7.2 = STRING: "C2921 Chassis Slot 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.3 = STRING: "C2921 Mother board 3GE, integrated VPN and 4W on Slot 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.4 = STRING: "DaughterCard Slot 0 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.5 = STRING: "DaughterCard Slot 1 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.6 = STRING: "DaughterCard Slot 2 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.7 = STRING: "DaughterCard Slot 3 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.8 = STRING: "DaughterCard Slot 4 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.9 = STRING: "DaughterCard Slot 5 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.10 = STRING: "DaughterCard Slot 6 on Card 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.11 = STRING: "C2921 Chassis Slot 1"
+.1.3.6.1.2.1.47.1.1.1.1.7.12 = STRING: "SM-ES3-16-P: EtherSwitch SM L3 + PoE + 15 10/100 + 1 10/100/1000 on Slot 1"
+.1.3.6.1.2.1.47.1.1.1.1.7.13 = STRING: "C2921 ISM Slot 0"
+.1.3.6.1.2.1.47.1.1.1.1.7.14 = STRING: "GigabitEthernet1/0"
+.1.3.6.1.2.1.47.1.1.1.1.7.15 = STRING: "GigabitEthernet1/1"
+.1.3.6.1.2.1.47.1.1.1.1.7.16 = STRING: "Embedded-Service-Engine0/0"
+.1.3.6.1.2.1.47.1.1.1.1.7.17 = STRING: "GigabitEthernet0/0"
+.1.3.6.1.2.1.47.1.1.1.1.7.18 = STRING: "GigabitEthernet0/1"
+.1.3.6.1.2.1.47.1.1.1.1.7.19 = STRING: "GigabitEthernet0/2"
+.1.3.6.1.2.1.47.1.1.1.1.7.20 = STRING: "Container of powerSupply Containers"
+.1.3.6.1.2.1.47.1.1.1.1.7.21 = STRING: "Container of Power Supply"
+.1.3.6.1.2.1.47.1.1.1.1.7.22 = STRING: "C2921/C2951 AC Power Supply"
+.1.3.6.1.2.1.47.1.1.1.1.7.23 = STRING: "Container of RPS"
+.1.3.6.1.2.1.47.1.1.1.1.7.24 = STRING: "XFR-1GE SFP Container 0/1"
+.1.3.6.1.2.1.47.1.1.1.1.8.1 = STRING: "V08 "
+.1.3.6.1.2.1.47.1.1.1.1.8.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.3 = STRING: "V08 "
+.1.3.6.1.2.1.47.1.1.1.1.8.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.12 = STRING: "V02 "
+.1.3.6.1.2.1.47.1.1.1.1.8.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.22 = STRING: "V03 "
+.1.3.6.1.2.1.47.1.1.1.1.8.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.8.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.1 = STRING: "System Bootstrap, Version 15.0(1r)M16, RELEASE SOFTWARE (fc1)"
+.1.3.6.1.2.1.47.1.1.1.1.9.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.3 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.12 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.22 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.9.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.1 = STRING: "15.5(3)M2, RELEASE SOFTWARE (fc1)"
+.1.3.6.1.2.1.47.1.1.1.1.10.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.3 = STRING: "15.5(3)M2"
+.1.3.6.1.2.1.47.1.1.1.1.10.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.12 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.22 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.10.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.1 = STRING: "FTX1716AKUU"
+.1.3.6.1.2.1.47.1.1.1.1.11.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.3 = STRING: "FOC17023YVB"
+.1.3.6.1.2.1.47.1.1.1.1.11.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.12 = STRING: "FOC17047412"
+.1.3.6.1.2.1.47.1.1.1.1.11.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.22 = STRING: "QCS1652H088"
+.1.3.6.1.2.1.47.1.1.1.1.11.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.11.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.12.1 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.2 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.3 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.4 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.5 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.6 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.7 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.8 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.9 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.10 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.11 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.12 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.13 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.14 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.15 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.16 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.17 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.18 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.19 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.20 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.21 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.22 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.23 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.12.24 = STRING: "Cisco"
+.1.3.6.1.2.1.47.1.1.1.1.13.1 = STRING: "CISCO2921/K9"
+.1.3.6.1.2.1.47.1.1.1.1.13.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.3 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.12 = STRING: "SM-ES3-16-P"
+.1.3.6.1.2.1.47.1.1.1.1.13.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.22 = STRING: "PWR-2921-51-AC"
+.1.3.6.1.2.1.47.1.1.1.1.13.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.13.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.1 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.3 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.12 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.22 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.14.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.1 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.2 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.3 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.4 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.5 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.6 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.7 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.8 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.9 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.10 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.11 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.12 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.13 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.14 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.15 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.16 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.17 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.18 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.19 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.20 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.21 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.22 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.23 = ""
+.1.3.6.1.2.1.47.1.1.1.1.15.24 = ""
+.1.3.6.1.2.1.47.1.1.1.1.16.1 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.2 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.3 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.4 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.5 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.6 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.7 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.8 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.9 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.10 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.11 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.12 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.16.13 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.14 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.15 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.16 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.17 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.18 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.19 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.20 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.21 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.22 = INTEGER: 1
+.1.3.6.1.2.1.47.1.1.1.1.16.23 = INTEGER: 2
+.1.3.6.1.2.1.47.1.1.1.1.16.24 = INTEGER: 2
+.1.3.6.1.2.1.47.1.2.1.1.2.1 = STRING: "vlan1"
+.1.3.6.1.2.1.47.1.2.1.1.2.2 = STRING: "default logical entity for CISCO2921/K9 platform"
+.1.3.6.1.2.1.47.1.2.1.1.3.1 = OID: .1.3.6.1.2.1.17
+.1.3.6.1.2.1.47.1.2.1.1.3.2 = OID: .1.3.6.1.2.1
+.1.3.6.1.2.1.47.1.2.1.1.4.1 = STRING: "public@1"
+.1.3.6.1.2.1.47.1.2.1.1.4.2 = STRING: "public"
+.1.3.6.1.2.1.47.1.2.1.1.5.1 = Hex-STRING: 0A 00 01 69 00 A1 
+.1.3.6.1.2.1.47.1.2.1.1.5.2 = Hex-STRING: 0A 00 01 69 00 A1 
+.1.3.6.1.2.1.47.1.2.1.1.6.1 = OID: .1.3.6.1.6.1.1
+.1.3.6.1.2.1.47.1.2.1.1.6.2 = OID: .1.3.6.1.6.1.1
+.1.3.6.1.2.1.47.1.2.1.1.7.1 = Hex-STRING: 80 00 00 09 03 00 B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.47.1.2.1.1.7.2 = Hex-STRING: 80 00 00 09 03 00 B0 FA EB 71 BD C0 
+.1.3.6.1.2.1.47.1.2.1.1.8.1 = ""
+.1.3.6.1.2.1.47.1.2.1.1.8.2 = ""
+.1.3.6.1.2.1.47.1.3.1.1.1.2.1 = INTEGER: 1
+.1.3.6.1.2.1.47.1.3.2.1.2.14.0 = OID: .1.3.6.1.2.1.2.2.1.1.1
+.1.3.6.1.2.1.47.1.3.2.1.2.15.0 = OID: .1.3.6.1.2.1.2.2.1.1.2
+.1.3.6.1.2.1.47.1.3.2.1.2.16.0 = OID: .1.3.6.1.2.1.2.2.1.1.3
+.1.3.6.1.2.1.47.1.3.2.1.2.17.0 = OID: .1.3.6.1.2.1.2.2.1.1.4
+.1.3.6.1.2.1.47.1.3.2.1.2.18.0 = OID: .1.3.6.1.2.1.2.2.1.1.5
+.1.3.6.1.2.1.47.1.3.2.1.2.19.0 = OID: .1.3.6.1.2.1.2.2.1.1.6
+.1.3.6.1.2.1.47.1.3.3.1.1.1.2 = INTEGER: 2
+.1.3.6.1.2.1.47.1.3.3.1.1.1.11 = INTEGER: 11
+.1.3.6.1.2.1.47.1.3.3.1.1.1.13 = INTEGER: 13
+.1.3.6.1.2.1.47.1.3.3.1.1.1.20 = INTEGER: 20
+.1.3.6.1.2.1.47.1.3.3.1.1.2.3 = INTEGER: 3
+.1.3.6.1.2.1.47.1.3.3.1.1.3.4 = INTEGER: 4
+.1.3.6.1.2.1.47.1.3.3.1.1.3.5 = INTEGER: 5
+.1.3.6.1.2.1.47.1.3.3.1.1.3.6 = INTEGER: 6
+.1.3.6.1.2.1.47.1.3.3.1.1.3.7 = INTEGER: 7
+.1.3.6.1.2.1.47.1.3.3.1.1.3.8 = INTEGER: 8
+.1.3.6.1.2.1.47.1.3.3.1.1.3.9 = INTEGER: 9
+.1.3.6.1.2.1.47.1.3.3.1.1.3.10 = INTEGER: 10
+.1.3.6.1.2.1.47.1.3.3.1.1.3.16 = INTEGER: 16
+.1.3.6.1.2.1.47.1.3.3.1.1.3.17 = INTEGER: 17
+.1.3.6.1.2.1.47.1.3.3.1.1.3.18 = INTEGER: 18
+.1.3.6.1.2.1.47.1.3.3.1.1.3.19 = INTEGER: 19
+.1.3.6.1.2.1.47.1.3.3.1.1.11.12 = INTEGER: 12
+.1.3.6.1.2.1.47.1.3.3.1.1.12.14 = INTEGER: 14
+.1.3.6.1.2.1.47.1.3.3.1.1.12.15 = INTEGER: 15
+.1.3.6.1.2.1.47.1.3.3.1.1.18.24 = INTEGER: 24
+.1.3.6.1.2.1.47.1.3.3.1.1.20.21 = INTEGER: 21
+.1.3.6.1.2.1.47.1.3.3.1.1.20.23 = INTEGER: 23
+.1.3.6.1.2.1.47.1.3.3.1.1.21.22 = INTEGER: 22
+.1.3.6.1.2.1.47.1.4.1.0 = Timeticks: (7391) 0:01:13.91
+.1.3.6.1.2.1.51.1.6.1.1.4 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.1.5 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.1.6 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.2.4 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.2.5 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.2.6 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.3.4 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.3.5 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.3.6 = Gauge32: 0
+.1.3.6.1.2.1.51.1.6.1.4.4 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.4.5 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.4.6 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.5.4 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.5.5 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.5.6 = INTEGER: 4
+.1.3.6.1.2.1.51.1.6.1.6.4 = INTEGER: 0
+.1.3.6.1.2.1.51.1.6.1.6.5 = INTEGER: 0
+.1.3.6.1.2.1.51.1.6.1.6.6 = INTEGER: 0
+.1.3.6.1.2.1.51.1.6.1.7.4 = INTEGER: 30000
+.1.3.6.1.2.1.51.1.6.1.7.5 = INTEGER: 30000
+.1.3.6.1.2.1.51.1.6.1.7.6 = INTEGER: 30000
+.1.3.6.1.2.1.51.1.6.1.8.4 = INTEGER: 200
+.1.3.6.1.2.1.51.1.6.1.8.5 = INTEGER: 200
+.1.3.6.1.2.1.51.1.6.1.8.6 = INTEGER: 200
+.1.3.6.1.2.1.51.1.6.1.9.4 = INTEGER: 1
+.1.3.6.1.2.1.51.1.6.1.9.5 = INTEGER: 1
+.1.3.6.1.2.1.51.1.6.1.9.6 = INTEGER: 1
+.1.3.6.1.2.1.51.1.6.1.10.4 = INTEGER: 2
+.1.3.6.1.2.1.51.1.6.1.10.5 = INTEGER: 2
+.1.3.6.1.2.1.51.1.6.1.10.6 = INTEGER: 2
+.1.3.6.1.2.1.51.1.6.1.11.4 = INTEGER: 1
+.1.3.6.1.2.1.51.1.6.1.11.5 = INTEGER: 1
+.1.3.6.1.2.1.51.1.6.1.11.6 = INTEGER: 1
+.1.3.6.1.2.1.51.2.1.0 = Gauge32: 0
+.1.3.6.1.2.1.51.2.2.0 = INTEGER: 2
+.1.3.6.1.2.1.51.2.3.0 = INTEGER: 0
+.1.3.6.1.2.1.51.2.4.0 = INTEGER: 0
+.1.3.6.1.2.1.51.2.5.0 = INTEGER: 2
+.1.3.6.1.2.1.52.1.1.1.1.4 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.1.5 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.1.6 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.2.4 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.2.5 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.2.6 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.3.4 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.3.5 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.3.6 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.4.4 = Gauge32: 0
+.1.3.6.1.2.1.52.1.1.1.4.5 = Gauge32: 0
+.1.3.6.1.2.1.52.1.1.1.4.6 = Gauge32: 0
+.1.3.6.1.2.1.52.1.1.1.5.4 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.5.5 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.5.6 = INTEGER: 0
+.1.3.6.1.2.1.52.1.1.1.6.4 = INTEGER: 1
+.1.3.6.1.2.1.52.1.1.1.6.5 = INTEGER: 1
+.1.3.6.1.2.1.52.1.1.1.6.6 = INTEGER: 1
+.1.3.6.1.2.1.52.2.1.0 = INTEGER: 0
+.1.3.6.1.2.1.52.5.1.1.1.1.4 = INTEGER: 96000
+.1.3.6.1.2.1.52.5.1.1.1.1.5 = INTEGER: 192000
+.1.3.6.1.2.1.52.5.1.1.1.1.6 = INTEGER: 360000
+.1.3.6.1.2.1.52.5.1.1.1.2.4 = INTEGER: 120000
+.1.3.6.1.2.1.52.5.1.1.1.2.5 = INTEGER: 120000
+.1.3.6.1.2.1.52.5.1.1.1.2.6 = INTEGER: 12000
+.1.3.6.1.2.1.52.5.1.1.1.3.4 = INTEGER: 0
+.1.3.6.1.2.1.52.5.1.1.1.3.5 = INTEGER: 0
+.1.3.6.1.2.1.52.5.1.1.1.3.6 = INTEGER: 0
+.1.3.6.1.2.1.52.5.1.1.1.4.4 = INTEGER: 1
+.1.3.6.1.2.1.52.5.1.1.1.4.5 = INTEGER: 1
+.1.3.6.1.2.1.52.5.1.1.1.4.6 = INTEGER: 1
+.1.3.6.1.2.1.68.1.1.0 = INTEGER: 1
+.1.3.6.1.2.1.68.1.2.0 = INTEGER: 2
+.1.3.6.1.2.1.68.2.1.0 = Counter32: 0
+.1.3.6.1.2.1.68.2.2.0 = Counter32: 0
+.1.3.6.1.2.1.68.2.3.0 = Counter32: 0
+.1.3.6.1.2.1.71.1.1.1.0 = Gauge32: 0
+.1.3.6.1.2.1.83.1.1.1.0 = INTEGER: 2
+.1.3.6.1.2.1.83.1.1.7.0 = Gauge32: 0
+.1.3.6.1.2.1.88.1.1.1.0 = INTEGER: 60
+.1.3.6.1.2.1.88.1.1.2.0 = Gauge32: 0
+.1.3.6.1.2.1.88.1.1.3.0 = Gauge32: 0
+.1.3.6.1.2.1.88.1.1.4.0 = Gauge32: 0
+.1.3.6.1.2.1.88.1.1.5.0 = Counter32: 0
+.1.3.6.1.2.1.88.1.2.1.0 = Counter32: 0
+.1.3.6.1.2.1.88.1.4.1.0 = Counter32: 0
+.1.3.6.1.2.1.90.1.1.1.0 = INTEGER: 1
+.1.3.6.1.2.1.90.1.1.2.0 = Gauge32: 0
+.1.3.6.1.2.1.90.1.1.3.0 = Gauge32: 0
+.1.3.6.1.2.1.90.1.1.4.0 = Gauge32: 0
+.1.3.6.1.2.1.90.1.1.5.0 = Counter32: 0
+.1.3.6.1.2.1.92.1.1.1.0 = Gauge32: 500
+.1.3.6.1.2.1.92.1.1.2.0 = Gauge32: 15
+.1.3.6.1.2.1.92.1.2.1.0 = Counter32: 0
+.1.3.6.1.2.1.92.1.2.2.0 = Counter32: 0
+.1.3.6.1.2.1.97.1.2.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.2.3.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.2.5.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.3.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.4.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.5.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.5.3.1.1.0 = INTEGER: 0
+.1.3.6.1.2.1.97.1.5.3.1.1.1 = INTEGER: 1
+.1.3.6.1.2.1.97.1.5.3.1.1.2 = INTEGER: 2
+.1.3.6.1.2.1.97.1.5.3.1.1.3 = INTEGER: 3
+.1.3.6.1.2.1.97.1.5.3.1.1.4 = INTEGER: 4
+.1.3.6.1.2.1.97.1.5.3.1.1.5 = INTEGER: 5
+.1.3.6.1.2.1.97.1.5.3.1.1.6 = INTEGER: 6
+.1.3.6.1.2.1.97.1.5.3.1.1.7 = INTEGER: 7
+.1.3.6.1.2.1.97.1.5.3.1.1.8 = INTEGER: 8
+.1.3.6.1.2.1.97.1.5.3.1.1.9 = INTEGER: 9
+.1.3.6.1.2.1.97.1.5.3.1.1.10 = INTEGER: 10
+.1.3.6.1.2.1.97.1.5.3.1.1.11 = INTEGER: 11
+.1.3.6.1.2.1.97.1.5.3.1.1.12 = INTEGER: 12
+.1.3.6.1.2.1.97.1.5.3.1.1.13 = INTEGER: 13
+.1.3.6.1.2.1.97.1.5.3.1.1.14 = INTEGER: 14
+.1.3.6.1.2.1.97.1.5.3.1.1.15 = INTEGER: 15
+.1.3.6.1.2.1.97.1.5.3.1.1.16 = INTEGER: 16
+.1.3.6.1.2.1.97.1.5.3.1.1.17 = INTEGER: 17
+.1.3.6.1.2.1.97.1.5.3.1.1.18 = INTEGER: 18
+.1.3.6.1.2.1.97.1.5.3.1.1.19 = INTEGER: 19
+.1.3.6.1.2.1.97.1.5.3.1.1.20 = INTEGER: 20
+.1.3.6.1.2.1.97.1.5.3.1.1.21 = INTEGER: 21
+.1.3.6.1.2.1.97.1.5.3.1.1.22 = INTEGER: 22
+.1.3.6.1.2.1.97.1.5.3.1.1.23 = INTEGER: 23
+.1.3.6.1.2.1.97.1.5.3.1.1.24 = INTEGER: 24
+.1.3.6.1.2.1.97.1.5.3.1.1.25 = INTEGER: 25
+.1.3.6.1.2.1.97.1.5.3.1.1.26 = INTEGER: 26
+.1.3.6.1.2.1.97.1.5.3.1.1.27 = INTEGER: 27
+.1.3.6.1.2.1.97.1.5.3.1.1.28 = INTEGER: 28
+.1.3.6.1.2.1.97.1.5.3.1.1.29 = INTEGER: 29
+.1.3.6.1.2.1.97.1.5.3.1.1.30 = INTEGER: 30
+.1.3.6.1.2.1.97.1.5.3.1.1.31 = INTEGER: 31
+.1.3.6.1.2.1.97.1.5.3.1.1.32 = INTEGER: 32
+.1.3.6.1.2.1.97.1.5.3.1.1.33 = INTEGER: 33
+.1.3.6.1.2.1.97.1.5.3.1.1.34 = INTEGER: 34
+.1.3.6.1.2.1.97.1.5.3.1.1.35 = INTEGER: 35
+.1.3.6.1.2.1.97.1.5.3.1.1.36 = INTEGER: 36
+.1.3.6.1.2.1.97.1.5.3.1.1.37 = INTEGER: 37
+.1.3.6.1.2.1.97.1.5.3.1.1.38 = INTEGER: 38
+.1.3.6.1.2.1.97.1.5.3.1.1.39 = INTEGER: 39
+.1.3.6.1.2.1.97.1.5.3.1.1.40 = INTEGER: 40
+.1.3.6.1.2.1.97.1.5.3.1.1.41 = INTEGER: 41
+.1.3.6.1.2.1.97.1.5.3.1.1.42 = INTEGER: 42
+.1.3.6.1.2.1.97.1.5.3.1.1.43 = INTEGER: 43
+.1.3.6.1.2.1.97.1.5.3.1.1.44 = INTEGER: 44
+.1.3.6.1.2.1.97.1.5.3.1.1.45 = INTEGER: 45
+.1.3.6.1.2.1.97.1.5.3.1.1.46 = INTEGER: 46
+.1.3.6.1.2.1.97.1.5.3.1.1.47 = INTEGER: 47
+.1.3.6.1.2.1.97.1.5.3.1.1.48 = INTEGER: 48
+.1.3.6.1.2.1.97.1.5.3.1.1.49 = INTEGER: 49
+.1.3.6.1.2.1.97.1.5.3.1.1.50 = INTEGER: 50
+.1.3.6.1.2.1.97.1.5.3.1.1.51 = INTEGER: 51
+.1.3.6.1.2.1.97.1.5.3.1.1.52 = INTEGER: 52
+.1.3.6.1.2.1.97.1.5.3.1.1.53 = INTEGER: 53
+.1.3.6.1.2.1.97.1.5.3.1.1.54 = INTEGER: 54
+.1.3.6.1.2.1.97.1.5.3.1.1.55 = INTEGER: 55
+.1.3.6.1.2.1.97.1.5.3.1.1.56 = INTEGER: 56
+.1.3.6.1.2.1.97.1.5.3.1.1.57 = INTEGER: 57
+.1.3.6.1.2.1.97.1.5.3.1.1.58 = INTEGER: 58
+.1.3.6.1.2.1.97.1.5.3.1.1.59 = INTEGER: 59
+.1.3.6.1.2.1.97.1.5.3.1.1.60 = INTEGER: 60
+.1.3.6.1.2.1.97.1.5.3.1.1.61 = INTEGER: 61
+.1.3.6.1.2.1.97.1.5.3.1.1.62 = INTEGER: 62
+.1.3.6.1.2.1.97.1.5.3.1.1.63 = INTEGER: 63
+.1.3.6.1.2.1.97.1.5.4.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.6.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.6.3.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.7.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.8.1.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.8.3.0 = Gauge32: 0
+.1.3.6.1.2.1.97.1.8.5.0 = Gauge32: 0

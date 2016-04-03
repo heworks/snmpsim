@@ -1,0 +1,13 @@
+build/
+.idea/
+.vagrant/
+.gradle/
+application.properties
+conf.agent
+device.walk
+snmpsim.jar
+bootCounter.agent
+snmpsim.iml
+snmpsim.ipr
+snmpsim.iws
+

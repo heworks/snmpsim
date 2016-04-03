@@ -1,0 +1,52 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/main/java"]
+        }
+        resources {
+            srcDirs = ["src/main/resources/"]
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ["src/test/java"]
+        }
+        resources {
+            srcDirs = ["src/test/resources"]
+        }
+    }
+}
+
+dependencies {
+    compile name: 'snmp4j-2.4.3'
+    compile name: 'snmp4j-agent-2.4.2'
+    compile 'commons-net:commons-net:3.4'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    testCompile 'junit:junit:4.11'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.liveaction.snmpsim.agent.SimulatorMain'
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+task copyJarToBin(type: Copy) {
+    from jar
+    into "./"
+}

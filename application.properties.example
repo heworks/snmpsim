@@ -1,0 +1,3 @@
+interface=eth1
+snmpPort=16100
+deviceIPs=172.17.1.0/24,172.17.101.1/32
