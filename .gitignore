@@ -5,7 +5,7 @@ build/
 application.properties
 conf.agent
 device.walk
-snmpsim.jar
+*.jar
 bootCounter.agent
 snmpsim.iml
 snmpsim.ipr

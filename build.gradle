@@ -1,6 +1,8 @@
 apply plugin: 'idea'
 apply plugin: 'java'
+apply plugin: 'distribution'
 
+version = "1.0.0"
 repositories {
     mavenCentral()
     flatDir {
@@ -23,7 +25,17 @@ sourceSets {
             srcDirs = ["src/test/java"]
         }
         resources {
-            srcDirs = ["src/test/resources"]
+            srcDirs = ["src/main/resources/"]
+        }
+    }
+}
+
+distributions {
+    main {
+        contents {
+            from { 'application.properties.example'}
+            from { 'device.walk.example'}
+            from jar
         }
     }
 }
@@ -38,7 +50,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.liveaction.snmpsim.agent.SimulatorMain'
+        attributes 'Main-Class': 'com.heworks.snmpsim.agent.SimulatorMain'
     }
 
     from {
@@ -46,7 +58,7 @@ jar {
     }
 }
 
-task copyJarToBin(type: Copy) {
-    from jar
-    into "./"
+task release(type: Copy) {
+    from distZip
+    into "releases"
 }
