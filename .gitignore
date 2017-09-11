@@ -2,6 +2,7 @@ build/
 .idea/
 .vagrant/
 .gradle/
+out/
 application.properties
 conf.agent
 device.walk

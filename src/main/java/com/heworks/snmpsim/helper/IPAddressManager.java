@@ -54,6 +54,9 @@ public class IPAddressManager {
         else if (SystemUtils.IS_OS_LINUX) {
             Runtime.getRuntime().exec("sudo ip address add " + ip + "/" + bitmask + " dev " + interfaceName);
         }
+        else if (SystemUtils.IS_OS_WINDOWS){
+            Runtime.getRuntime().exec("netsh interface ipv4 add address \"" + interfaceName + "\" " + ip + " " + netmask);
+        }
         else {
             System.err.println("OS not supported. " + SystemUtils.OS_NAME);
         }
