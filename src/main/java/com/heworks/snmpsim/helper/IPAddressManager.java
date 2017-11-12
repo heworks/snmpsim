@@ -49,7 +49,7 @@ public class IPAddressManager {
 
     private void addSecondaryIP(String interfaceName, String ip, String netmask, int bitmask) throws IOException {
         if (SystemUtils.IS_OS_MAC) {
-            Runtime.getRuntime().exec("sudo ifconfig " + interfaceName + "alias " + ip + " " + netmask);
+            Runtime.getRuntime().exec("sudo ifconfig " + interfaceName + " alias " + ip + "/" + bitmask + " up");
         }
         else if (SystemUtils.IS_OS_LINUX) {
             Runtime.getRuntime().exec("sudo ip address add " + ip + "/" + bitmask + " dev " + interfaceName);
