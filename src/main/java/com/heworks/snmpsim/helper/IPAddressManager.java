@@ -49,7 +49,9 @@ public class IPAddressManager {
 
     private void addSecondaryIP(String interfaceName, String ip, String netmask, int bitmask) throws IOException {
         if (SystemUtils.IS_OS_MAC) {
-            Runtime.getRuntime().exec("sudo ifconfig " + interfaceName + " alias " + ip + "/" + bitmask + " up");
+            //MacOS doesn't work if adding same network more than once. Hardcoding 32 bit mask to force each ip to be in a
+            //unique network.
+            Runtime.getRuntime().exec("sudo ifconfig " + interfaceName + " alias " + ip + "/32"  + " up");
         }
         else if (SystemUtils.IS_OS_LINUX) {
             Runtime.getRuntime().exec("sudo ip address add " + ip + "/" + bitmask + " dev " + interfaceName);
