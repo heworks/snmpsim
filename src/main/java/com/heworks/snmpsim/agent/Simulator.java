@@ -4,6 +4,8 @@ package com.heworks.snmpsim.agent;
 import com.heworks.snmpsim.manager.SNMPManager;
 import com.heworks.snmpsim.mibReader.MibReader;
 import org.snmp4j.agent.mo.MOTable;
+import org.snmp4j.log.LogAdapter;
+import org.snmp4j.log.LogFactory;
 import org.snmp4j.smi.*;
 
 import java.io.*;
@@ -11,36 +13,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Simulator {
+    private static final LogAdapter LOGGER = LogFactory.getLogger(Simulator.class);
     private static final OID DEVICE_NAME_OID = new OID("1.3.6.1.2.1.1.5.0");
     private static final OID DEVICE_SERIAL_OID = new OID("1.3.6.1.4.1.9.3.6.3.0");
-    private static final OID SYS_DESCRIPTION = new OID("1.3.6.1.2.1.1.1.0");
-    private static final File WALK_FILE = new File("device.walk");
     private static final String PREFIX = "SNMP4J-";
 
     private List<SNMPAgent> agents = new ArrayList<SNMPAgent>();
     private SNMPManager client = null;
     private MibReader mibReader;
 
-    public Simulator(List<String> ips, int port) throws IOException {
-        this.mibReader = new MibReader();
-        for (String ip : ips) {
-            System.out.println("Initializing device: " + ip);
-            initSingleAgent(ip, port);
-            System.out.println("Finish loading device: " + ip);
-        }
+    /**
+     * Create a new simulator.
+     * @param ips the ips to simulate
+     * @param port the snmp port to use
+     * @param walkFiles the walk files to simulate
+     * @param mibFiles the mib files to simulate
+     * @throws IOException
+     */
+    public Simulator(List<String> ips, int port, File walkFiles, List<File> mibFiles) throws IOException {
+        this.mibReader = new MibReader(mibFiles);
+        initAllAgent(ips, port, walkFiles);
     }
 
-    private void initSingleAgent(String ip, int port) throws IOException {
+    private void initAllAgent(List<String> ips, int port, File walkFile) throws IOException {
 
-        SNMPAgent agent = new SNMPAgent(ip + "/" + port);
-        agents.add(agent);
-        agent.start();
-        System.out.println("agent started");
+        for (String ip : ips) {
+            SNMPAgent agent = new SNMPAgent(ip, port);
+            this.agents.add(agent);
+            agent.start();
+        }
+        LOGGER.warn("agents started");
 
         // Since BaseAgent registers some MIBs by default we need to unregister
         // one before we register our own sysDescr. Normally you would
         // override that method and register the MIBs that you need
-        agent.unregisterManagedObject(agent.getSnmpv2MIB());
 //        agent.unregisterManagedObject(agent.getSnmpFrameworkMIB());
 //        agent.unregisterManagedObject(agent.getSnmpCommunityMIB());
 //        agent.unregisterManagedObject(agent.getUsmMIB());
@@ -50,64 +56,89 @@ public class Simulator {
 //        agent.unregisterManagedObject(agent.getSnmpProxyMIB());
 //        agent.unregisterManagedObject(agent.getSnmpTargetMIB());
 
-        loadWalkFile(agent);
-        System.out.println("Loading walk file done.");
-        registerSpecialOIDs(agent, ip);
-
-        // Setup the client to use our newly started agent
-        client = new SNMPManager("udp:" + ip + "/" + port);
-        client.start();
-        // Get back Value which is set
-        System.out.println("Testing device: " + ip + " on port: " + port + " ....");
-        System.out.println("Name: " + client.getAsString(DEVICE_NAME_OID));
-        System.out.println("Serial: " + client.getAsString(DEVICE_SERIAL_OID));
+        loadWalkFile(walkFile);
+        registerSpecialOIDs();
+        testAgents(); 
     }
 
-    private void registerSpecialOIDs(SNMPAgent agent, String ip) {
-        String ipString = ip.replace(".", "-");
-        agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_NAME_OID, new OctetString(PREFIX + ipString)));
-        agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_SERIAL_OID, new OctetString(PREFIX + ipString)));
+    /**
+     * Register certain OIDs to the agents.
+     */
+    private void registerSpecialOIDs() {
+        LOGGER.warn("Register special OIDs.");
+        for (SNMPAgent agent : this.agents) {
+            String ipString = agent.getAddress().replace(".", "-");
+            agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_NAME_OID, new OctetString(PREFIX + ipString)));
+            agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_SERIAL_OID, new OctetString(PREFIX + ipString)));
+        }
+        LOGGER.warn("Done");
     }
 
-    private void loadWalkFile(SNMPAgent agent) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(WALK_FILE)));
+    /**
+     * Test if device returns certain OID as expected.
+     * @throws IOException
+     */
+    private void testAgents() throws IOException {
+        LOGGER.warn("Testing agents...");
+        for (SNMPAgent agent : this.agents) {
+            client = new SNMPManager("udp:" + agent.getAddressAndPort());
+            client.start();
+            // Get back Value which is set
+            LOGGER.warn("Testing device: " + agent.getAddressAndPort());
+            LOGGER.warn("Name: " + client.getAsString(DEVICE_NAME_OID));
+            LOGGER.warn("Serial: " + client.getAsString(DEVICE_SERIAL_OID)); 
+        }
+        LOGGER.warn("Done");
+    }
+
+    /**
+     * Iterate through the walk file and loads in the OIDs.
+     * @throws IOException
+     */
+    private void loadWalkFile(File walkFile) throws IOException {
+        LOGGER.warn("Loading walk file...");
+        FileInputStream inputStream = new FileInputStream(walkFile);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String line = null;
         String fullLine = "";
 
         List<VariableBinding> tableData = new ArrayList<>();
         while((line = reader.readLine()) != null) {
-            fullLine += line;
-            if(isCompleteLine(fullLine)) {
+            if(!fullLine.isEmpty() && line.startsWith(".1.3.6.1")) {
                 VariableBinding variableBinding = processOidString(fullLine);
-                fullLine = "";
+                fullLine = line;
 
                 if(mibReader.accept(variableBinding.getOid())) {
                     if (isScalar(variableBinding)) {
                         //if table is not empty, means table data is complete, register the table
                         if (!tableData.isEmpty()) {
                             MOTable table = createTable(tableData);
-                            agent.registerManagedObject(table);
+                            this.agents.forEach(agent -> agent.registerManagedObject(table));
                             tableData.clear();
                         }
-                        agent.registerManagedObject(MOCreator.createReadOnly(variableBinding));
+                        this.agents.forEach(agent -> agent.registerManagedObject(MOCreator.createReadOnly(variableBinding)));
                     } else {
                         //if table is not empty and is currently at a new table, means the old table data is complete
                         //regitster the table
                         if (!tableData.isEmpty() && !isSameTable(variableBinding.getOid(), tableData.get(0).getOid())) {
                             MOTable table = createTable(tableData);
-                            agent.registerManagedObject(table);
+                            this.agents.forEach(agent -> agent.registerManagedObject(table));
                             tableData.clear();
                         }
                         tableData.add(variableBinding);
                     }
                 }
             }
+            else {
+                fullLine += line;
+            }
         }
         if(!tableData.isEmpty()) {
             MOTable table = createTable(tableData);
-            agent.registerManagedObject(table);
+            this.agents.forEach(agent -> agent.registerManagedObject(table));
             tableData.clear();
         }
+        LOGGER.warn("Done.");
     }
 
     private MOTable createTable(List<VariableBinding> tableData) throws  IOException {
@@ -131,37 +162,21 @@ public class Simulator {
         return false;
     }
 
-    private boolean isCompleteLine(String line) {
-        if(line.startsWith(".1.3.6.1")) {
-            if (line.contains(" STRING: ")) {
-                if(line.endsWith("\"") && line.substring(0, line.length() - 2).contains("\"")) {
-                    return true;
-                }
-                return false;
-            }
-            return true;
-        }
-        return false;
-    }
-
     private VariableBinding processOidString(String fullLine) {
         String oid = null;
         String type = null;
         String value = null;
-        String[] strings = fullLine.split("=");
+        String[] strings = fullLine.split("=", 2);
         oid = strings[0].trim();
         Variable variable = null;
 
-        if (!strings[1].contains(": ") && strings[1].equals(" \"\"")) {
+        if (strings[1].equals(" \"\"")) {
             variable = new OctetString("");
-//            System.out.println("oid: " + oid + ", type: STRING" + ", value:  ");
             return new VariableBinding(new OID(oid), variable);
         } else {
-            String[] strings2 = strings[1].split(": ");
+            String[] strings2 = strings[1].split(": ", 2);
             type = strings2[0].trim();
-            value = strings[1].substring(strings2[0].length() + 2);
-//            System.out.println("oid: " + oid + ", type: " + type + ", value: " + value);
-
+            value = strings2[1].trim();
             variable = MOCreator.convertToVariable(type, value);
             return new VariableBinding(new OID(oid), variable);
         }

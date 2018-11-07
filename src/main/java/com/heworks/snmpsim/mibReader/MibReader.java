@@ -1,34 +1,36 @@
 package com.heworks.snmpsim.mibReader;
 
+import com.heworks.snmpsim.agent.Simulator;
+import org.snmp4j.log.LogAdapter;
+import org.snmp4j.log.LogFactory;
 import org.snmp4j.smi.OID;
 
 import java.io.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by m2c2 on 3/21/16.
  */
 public class MibReader {
-
-    public static final List<String> MIB_FILE = Arrays.asList(
-            "/mibs/SNMPv2-SMI.my",
-            "/mibs/CISCO-SMI.my",
-            "/mibs/RFC1213-MIB.my",
-            "/mibs/SNMPv2-MIB.my",
-            "/mibs/IP-FORWARD-MIB.my",
-            "/mibs/IP-MIB.my",
-            "/mibs/CISCO-PROCESS-MIB.my");
+    private static final LogAdapter LOGGER = LogFactory.getLogger(MibReader.class);
     private Map<String, OID> nameToOIDMap = new HashMap<>();
+    private Map<String, OID> tableNameToOidMap = new HashMap<>();
     private Set<OID> rootOIDs = new HashSet<>();
     //use the first 7 ints as the root OID
     private static final int ROOT_OID_LEVEL = 7;
 
-    public MibReader() throws IOException {
-        System.out.println("Starting loading mib files...");
-        load(MIB_FILE);
-        System.out.println("Finished loading mib files.");
+    /**
+     * Create a new mib reader.
+     * @param mibFiles the mib files to be used
+     * @throws IOException
+     */
+    public MibReader(List<File> mibFiles) throws IOException {
+        LOGGER.warn("Loading mib files...");
+        load(mibFiles);
+        LOGGER.warn("Finished loading mib files.");
         addRootOIDs();
-        System.out.println("Root OIDs: " + this.rootOIDs);
+        LOGGER.warn("Root OIDs: " + this.rootOIDs);
     }
 
     private void addRootOIDs() {
@@ -39,48 +41,78 @@ public class MibReader {
         }
     }
 
-    private void load(List<String> mibFiles) throws IOException {
+    /**
+     * Load mib files into mib reader.
+     * @param mibFiles the mib files to load
+     * @throws IOException
+     */
+    private void load(List<File> mibFiles) throws IOException {
         this.nameToOIDMap.put("iso", new OID("1"));
-        for(String mibFile : mibFiles) {
-            InputStream inputStream  = getClass().getResourceAsStream(mibFile);
-            System.out.println("Loading mib: " + mibFile);
+        for(File mibFile : mibFiles) {
+            FileInputStream inputStream = new FileInputStream(mibFile);
+            LOGGER.warn("Loading mib: " + mibFile);
             load(inputStream);
         }
 
     }
 
-    private void load(InputStream inputStream) throws IOException {
+    private void load(FileInputStream inputStream) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String line = null;
         String fullLine = "";
+        boolean previousLineIsEmpty = false;
+        boolean previousLineIsCloseure = false;
         while( (line = reader.readLine()) != null) {
-            if(doWeCare(line)) {
-                fullLine += line;
+            if (line.isEmpty()) {
+                previousLineIsEmpty = true;
+                continue;
             }
-            if(isCompleteLine(fullLine)) {
-                String trimedString = fullLine.trim();
-                String oidName = trimedString.substring(0, trimedString.indexOf(" "));
-                String oidValueString = trimedString.substring(trimedString.lastIndexOf('{') + 1, trimedString.lastIndexOf('}')).trim();
-                String[] oidValueSubStrings = oidValueString.split(" ");
-//                System.out.println(oidName + " : " + nameToOIDMap.get(oidValueSubStrings[0]) + "." + oidValueSubStrings[1]);
-                OID oid = new OID(nameToOIDMap.get(oidValueSubStrings[0]));
-                oid.append(Integer.parseInt(oidValueSubStrings[1]));
-                nameToOIDMap.put(oidName, oid);
-                fullLine = "";
+            //ignore comments
+            if (line.trim().startsWith("--")) {
+                continue;
+            }
+            else {
+                if (fullLine.isEmpty() && line.trim().matches("^[a-z].*$") && (previousLineIsEmpty || previousLineIsCloseure)) {
+                    fullLine += line; 
+                    if (processLine(fullLine)) {
+                        fullLine = "";
+                    }
+                    continue;
+                }
+                if (!fullLine.isEmpty() && line.trim().contains("::= {")) {
+                    fullLine += line;
+                    if (processLine(fullLine)) {
+                        fullLine = "";
+                    }
+                }
+                previousLineIsEmpty = false;
+                if (line.trim().contains("::= {")) {
+                    previousLineIsCloseure = true;
+                }
+                else {
+                    previousLineIsCloseure = false;
+                }
             }
         }
     }
 
-    private boolean doWeCare(String line) {
-        String trimLine = line.trim();
-        if(trimLine.startsWith("-- ")) {
-            return false;
-        }
-        if(trimLine.contains(",")) {
-            return false;
-        }
-        if(trimLine.contains(" OBJECT") || trimLine.contains(" MODULE")|| trimLine.contains("::= {")
-                || trimLine.contains(" NOTIFICATION")) {
+    /**
+     * Process the full line, if it's full line return true, false otherwise.
+     * @param fullLine the full line
+     */
+    private boolean processLine(String fullLine) {
+        if(isCompleteLine(fullLine)) {
+            String trimedString = fullLine.trim();
+            String oidName = trimedString.substring(0, trimedString.indexOf(" "));
+            String oidValueString = trimedString.substring(trimedString.lastIndexOf('{') + 1, trimedString.lastIndexOf('}')).trim();
+            String[] oidValueSubStrings = oidValueString.split(" ");
+//            System.out.println(oidName + " : " + nameToOIDMap.get(oidValueSubStrings[0]) + "." + oidValueSubStrings[1]);
+            OID oid = new OID(nameToOIDMap.get(oidValueSubStrings[0]));
+            oid.append(Integer.parseInt(oidValueSubStrings[1]));
+            nameToOIDMap.put(oidName, oid);
+            if (oidName.endsWith("Table")) {
+                tableNameToOidMap.put(oidName, oid);
+            }
             return true;
         }
         return false;
@@ -110,23 +142,13 @@ public class MibReader {
     }
 
     public OID getRootTableOID(OID oid) {
-        for(String name : nameToOIDMap.keySet()) {
-            if(name.endsWith("Table")) {
-//                System.out.println(name + " : " + nameToOIDMap.get(name));
-                if(oid.startsWith(nameToOIDMap.get(name))) {
-                    //add one for the entry
-                    int size = nameToOIDMap.get(name).size() + 1;
-                    OID result = new OID(oid);
-                    while(result.size() > size) {
-                        result.removeLast();
-                    }
-                    return result;
-                }
+        for (OID rootTableOid : tableNameToOidMap.values()) {
+            if (oid.startsWith(rootTableOid)) {
+                OID result = new OID(rootTableOid);
+                result.append(oid.get(rootTableOid.size()));
+                return result;
             }
         }
-//        OID rootOid = new OID(oid);
-//        rootOid.removeLast();
-//        rootOid.removeLast();
         return null;
     }
 

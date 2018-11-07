@@ -33,7 +33,7 @@ public class TestSNMPAgent {
     }
 
     private void init() throws IOException {
-        agent = new SNMPAgent("172.17.1.102/2001");
+        agent = new SNMPAgent("172.17.1.102", 2001);
         agent.start();
 
         // Since BaseAgent registers some MIBs by default we need to unregister

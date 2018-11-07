@@ -30,13 +30,31 @@ public class MOCreator {
                 value = new OctetString(valueString);
                 break;
             case "Gauge32":
-                value = new Gauge32(Long.parseLong(valueString));
+                //example: 14400000 milliseconds
+                String longString = valueString;
+                if (valueString.contains(" ")) {
+                    longString = valueString.split(" ", 2)[0];
+                }
+                value = new Gauge32(Long.parseLong(longString));
                 break;
             case "Counter32":
-                value = new Counter32(Long.parseLong(valueString));
+                String longValueString = valueString;
+                if (valueString.contains(" ")) {
+                    longValueString = valueString.split(" ", 2)[0];
+                }
+                value = new Counter32(Long.parseLong(longValueString));
                 break;
             case "INTEGER":
-                value = new Integer32(Integer.parseInt(valueString));
+                String integerString = valueString;
+                //example: forwarding(1)
+                if (valueString.contains("(") & valueString.contains(")")) {
+                    integerString = valueString.substring(valueString.indexOf("(") + 1, valueString.indexOf(")"));
+                }
+                //example: 30 seconds
+                else if (valueString.contains(" ")){
+                    integerString = valueString.split(" ", 2)[0]; 
+                }
+                value = new Integer32(Integer.parseInt(integerString));
                 break;
             case "Timeticks":
                 String intString = valueString.substring(valueString.indexOf("(") + 1, valueString.indexOf(")"));

@@ -16,6 +16,8 @@ import org.snmp4j.agent.mo.snmp.SnmpTargetMIB;
 import org.snmp4j.agent.mo.snmp.StorageType;
 import org.snmp4j.agent.mo.snmp.VacmMIB;
 import org.snmp4j.agent.security.MutableVACM;
+import org.snmp4j.log.LogAdapter;
+import org.snmp4j.log.LogFactory;
 import org.snmp4j.mp.MPv3;
 import org.snmp4j.security.SecurityLevel;
 import org.snmp4j.security.SecurityModel;
@@ -33,14 +35,18 @@ import org.snmp4j.transport.TransportMappings;
  */
 
 public class SNMPAgent extends BaseAgent {
-
-    private String address;
+    private static final LogAdapter LOGGER = LogFactory.getLogger(SNMPAgent.class);
+    public static final OctetString DEFAULT_CONTEXT = new OctetString("public");
+    private final String addressAndPort;
+    private final String address;
+    private final int port;
 
     /**
-     * @param address
+     * @param address the IPv4 address of this agent
+     * @param port  the port should be used for this agent
      * @throws IOException
      */
-    public SNMPAgent(String address) throws IOException {
+    public SNMPAgent(String address, int port) throws IOException {
 
         /**
          * Creates a base agent with boot-counter, config file, and a
@@ -55,7 +61,33 @@ public class SNMPAgent extends BaseAgent {
         super(new File("conf.agent"), new File("bootCounter.agent"),
                 new CommandProcessor(
                         new OctetString(MPv3.createLocalEngineID())));
+        this.addressAndPort = address + "/" + port;
         this.address = address;
+        this.port = port;
+    }
+
+    /**
+     * Gets the address of the agent.
+     * @return the IP address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * Gets the port of the agent.
+     * @return the port
+     */
+    public int getPort() {
+        return port;
+    }
+
+    /**
+     * Gets the address and port string.
+     * @return the address and port string
+     */
+    public String getAddressAndPort() {
+        return addressAndPort;
     }
 
     /**
@@ -66,7 +98,7 @@ public class SNMPAgent extends BaseAgent {
         Variable[] com2sec = new Variable[]{new OctetString("public"),
                 new OctetString("cpublic"), // security name
                 getAgent().getContextEngineID(), // local engine ID
-                new OctetString("public"), // default context name
+                DEFAULT_CONTEXT, // default context name
                 new OctetString(), // transport tag
                 new Integer32(StorageType.nonVolatile), // storage type
                 new Integer32(RowStatus.active) // row status
@@ -94,6 +126,11 @@ public class SNMPAgent extends BaseAgent {
     protected void addUsmUser(USM arg0) {
         // TODO Auto-generated method stub
 
+    }
+
+    @Override
+    protected void registerSnmpMIBs() {
+       //TODO register no mibs 
     }
 
     /**
@@ -137,7 +174,7 @@ public class SNMPAgent extends BaseAgent {
 
     protected void initTransportMappings() throws IOException {
         transportMappings = new TransportMapping[1];
-        Address addr = GenericAddress.parse(address);
+        Address addr = GenericAddress.parse(addressAndPort);
         TransportMapping tm = TransportMappings.getInstance()
                 .createTransportMapping(addr);
         transportMappings[0] = tm;
@@ -167,10 +204,17 @@ public class SNMPAgent extends BaseAgent {
      */
     public void registerManagedObject(ManagedObject mo) {
         try {
-            server.register(mo, null);
+            server.register(mo, DEFAULT_CONTEXT);
         } catch (DuplicateRegistrationException ex) {
-            System.err.println("Oid: " + mo.find(mo.getScope()) + " already registered. Skipping...");
+            try {
+                server.unregister(mo, DEFAULT_CONTEXT);
+                server.register(mo, DEFAULT_CONTEXT);
+            }
+            catch (DuplicateRegistrationException e) {
+                LOGGER.error("Oid: " + mo.find(mo.getScope()) + " already registered. Skipping...");
+            }
         }
+        
     }
 
     public void unregisterManagedObject(MOGroup moGroup) {

@@ -1,6 +1,9 @@
 package com.heworks.snmpsim.helper;
 
+import com.heworks.snmpsim.agent.ApplicationProperties;
 import org.apache.commons.lang3.SystemUtils;
+import org.snmp4j.log.LogAdapter;
+import org.snmp4j.log.LogFactory;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,6 +13,7 @@ import java.util.List;
  * Created by m2c2 on 3/9/16.
  */
 public class IPAddressManager {
+    private static final LogAdapter LOGGER = LogFactory.getLogger(IPAddressManager.class);
     private final List<IPAddressRange> ipAddressRanges;
 
     public IPAddressManager(List<String> ipRangeStrings) throws IOException {
@@ -28,10 +32,10 @@ public class IPAddressManager {
     }
 
     public void addAllIPsAsSecondaryIPs(String interfaceName) throws IOException {
-        System.out.println("Adding secondary ip addresses to interface " + interfaceName + "...");
+        LOGGER.warn("Adding secondary ip addresses to interface " + interfaceName + "...");
         for (IPAddressRange ipRanges : ipAddressRanges) {
             for (String ip : ipRanges.getIps()) {
-                System.out.println(ip);
+                LOGGER.warn(ip);
                 addSecondaryIP(interfaceName, ip, ipRanges.getNetmask(), ipRanges.getBitmask());
             }
 //            System.out.println("Adding static route to " + ipRanges.getNetwork() + "/" + ipRanges.getBitmask());
@@ -60,7 +64,7 @@ public class IPAddressManager {
             Runtime.getRuntime().exec("netsh interface ipv4 add address \"" + interfaceName + "\" " + ip + " " + netmask);
         }
         else {
-            System.err.println("OS not supported. " + SystemUtils.OS_NAME);
+            LOGGER.error("OS not supported. " + SystemUtils.OS_NAME);
         }
     }
 
@@ -72,7 +76,7 @@ public class IPAddressManager {
 
         }
         else {
-            System.err.println("OS not supported.");
+            LOGGER.error("OS not supported.");
         }
     }
 }

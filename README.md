@@ -16,15 +16,26 @@ Currently only supports linux environment.
 - $sudo java -jar snmpsim-1.0.0.jar
 
 # About application.properties
-interface=eth1
-snmpPort=16100
-deviceIPs=172.17.1.0/24,172.17.101.1/32
+- interface=eth1
+- snmpPort=16100
+- deviceIPs=172.17.1.0/24,172.17.101.1/32
+- dataDir=/root/dev/snmpsim
+- deviceToSimulate=C3925.walk
+- mibsToSimulate=SNMPv2-SMI.my,CISCO-SMI.my
 
-"interface" should the name of the interface that you want the simulated to hide behind. 
+"interface" should the name of the interface that you want the simulated to hide behind.
 "snmpPort" is the port it will use to for snmp binding.
 "deviceIPs" is a list of IPs that will be simulated. 
+"dataDir" is path to where data is stored used
+"deviceToSimulate" points to a walk file stored under {dataDir}/walkFiles
+"mibsToSimulate" points to a comma separated list of mib files stored under {dataDir}/mibs
 
 # Other
-- "device.walk" is a snmp walk file generated from snmpwalk command
+- walk files are files generated from snmpwalk command
 - All devices will use oid values in "device.walk". They will look exactly the same, but each of them with 
   device serial string.
+- walk file can be obtained using the following commands:
+1) snmpwalk -t 10 -r 3 -v 2c -c public 10.1.150.11 -On .1.3.6.1.2 > C3925.walk
+2) snmpwalk -t 10 -r 3 -v 2c -c public 10.1.150.11 -On .1.3.6.1.4 >> C3925.walk
+
+- Sub interfaces are used to simulate the devices. Run "ip addr" command to see all the sub interfaces on Linux.

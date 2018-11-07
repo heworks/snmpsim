@@ -5,9 +5,13 @@ package com.heworks.snmpsim.agent;
  */
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.heworks.snmpsim.mibReader.MibReader;
+import javafx.util.Pair;
 import org.snmp4j.agent.MOAccess;
 import org.snmp4j.agent.mo.*;
 import org.snmp4j.smi.OID;
@@ -27,8 +31,7 @@ public class MOTableBuilder {
     private MOTableIndex indexDef = new MOTableIndex(subIndexes, false);
 
     private final List<MOColumn> columns = new ArrayList<MOColumn>();
-    private final List<Variable[]> tableRows = new ArrayList<Variable[]>();
-    private final List<OID> rowIndexes = new ArrayList<>();
+    private final LinkedHashMap<OID, List<Variable>> tableRows = new LinkedHashMap<>();
     private int currentRow = 0;
     private int currentCol = 0;
 
@@ -51,52 +54,30 @@ public class MOTableBuilder {
         return this;
     }
 
-    private MOTableBuilder addRowValue(Variable variable) {
-        if (tableRows.size() == currentRow) {
-            tableRows.add(new Variable[columns.size()]);
-        }
-        tableRows.get(currentRow)[currentCol] = variable;
-        currentCol++;
-        if (currentCol >= columns.size()) {
-            currentRow++;
-            currentCol = 0;
+    private MOTableBuilder addRowValue(VariableBinding variableBinding, MibReader mibReader) {
+        OID oid = variableBinding.getOid();
+        //TODO: improve performance
+        OID rowOidIndex = mibReader.getRowIndexOID(oid);
+        if (rowOidIndex != null) {
+            List<Variable> valuesInARow = tableRows.computeIfAbsent(rowOidIndex, k -> new ArrayList<>());
+            valuesInARow.add(variableBinding.getVariable()); 
         }
         return this;
     }
 
     public MOTableBuilder addAllData(List<VariableBinding> values, MibReader mibReader) {
-
-
         OID firstOid = values.get(0).getOid();
         this.tableRootOid = mibReader.getRootTableOID(firstOid);
-//        System.out.println("====== Table Root === " + this.tableRootOid);
-//        if(this.tableRootOid.equals(new OID("1.3.6.1.2.1.4.24.4.1"))) {
-//            System.out.println("STOP");
-//        }
-        int firstColumnIndex = mibReader.getColumnIndex(firstOid);
-        int rowSize = 0;
-        for(int i = 0; i < values.size(); i++) {
-            if(mibReader.getColumnIndex(values.get(i).getOid()) != firstColumnIndex) {
-                rowSize = i;
-                break;
-            }
-        }
 
-        //add columns
-        for(int i = 0; i < values.size(); i+=rowSize)  {
-            OID oid = values.get(i).getOid();
+        int previousColIndex = 0;
+        for(VariableBinding variableBinding : values)  {
+            OID oid = variableBinding.getOid();
             int colIndex = mibReader.getColumnIndex(oid);
-            addColumnType(colIndex, values.get(i).getSyntax(), MOAccessImpl.ACCESS_READ_ONLY);
-        }
-
-        //add the variables in row order.
-        for(int i = 0; i < rowSize; i++) {
-            int index = i;
-            this.rowIndexes.add(mibReader.getRowIndexOID(values.get(index).getOid()));
-            while(index < values.size()) {
-                addRowValue(values.get(index).getVariable());
-                index += rowSize;
+            if (colIndex != previousColIndex) {
+                addColumnType(colIndex, oid.getSyntax(), MOAccessImpl.ACCESS_READ_ONLY);
+                previousColIndex = colIndex;
             }
+            addRowValue(variableBinding, mibReader);
         }
         return this;
     }
@@ -104,12 +85,9 @@ public class MOTableBuilder {
     public MOTable build() {
         DefaultMOTable ifTable = new DefaultMOTable(tableRootOid, indexDef, columns.toArray(new MOColumn[0]));
         MOMutableTableModel model = (MOMutableTableModel) ifTable.getModel();
-        int i = 0;
-
-        for (Variable[] variables : tableRows) {
-            model.addRow(new DefaultMOMutableRow2PC(rowIndexes.get(i), variables));
-            i++;
-        }
+        tableRows.forEach((oidIndex, values) -> {
+            model.addRow(new DefaultMOMutableRow2PC(oidIndex, values.toArray(new Variable[values.size()]))); 
+        });
         ifTable.setVolatile(true);
         return ifTable;
     }
