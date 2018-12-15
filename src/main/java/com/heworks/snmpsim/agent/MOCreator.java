@@ -12,7 +12,7 @@ import org.snmp4j.smi.*;
  */
 public class MOCreator {
     public static MOScalar createReadOnly(VariableBinding variableBinding) {
-        return new MOScalar(variableBinding.getOid(),
+        return new MOScalar(variableBinding.getOid(), 
                 MOAccessImpl.ACCESS_READ_ONLY,
                 variableBinding.getVariable());
     }

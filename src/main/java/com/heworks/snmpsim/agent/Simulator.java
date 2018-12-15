@@ -15,7 +15,8 @@ import java.util.List;
 public class Simulator {
     private static final LogAdapter LOGGER = LogFactory.getLogger(Simulator.class);
     private static final OID DEVICE_NAME_OID = new OID("1.3.6.1.2.1.1.5.0");
-    private static final OID DEVICE_SERIAL_OID = new OID("1.3.6.1.4.1.9.3.6.3.0");
+    private static final OID DEVICE_SERIAL_CISCO_OID = new OID("1.3.6.1.4.1.9.3.6.3.0");
+    private static final OID DEVICE_SERIAL_JUNIPER_OID = new OID("1.3.6.1.4.1.2636.3.1.3.0");
     private static final String PREFIX = "SNMP4J-";
 
     private List<SNMPAgent> agents = new ArrayList<SNMPAgent>();
@@ -27,11 +28,11 @@ public class Simulator {
      * @param ips the ips to simulate
      * @param port the snmp port to use
      * @param walkFiles the walk files to simulate
-     * @param mibFiles the mib files to simulate
+     * @param mibFolder the mib folder that contains the mibs to simulate                 
      * @throws IOException
      */
-    public Simulator(List<String> ips, int port, File walkFiles, List<File> mibFiles) throws IOException {
-        this.mibReader = new MibReader(mibFiles);
+    public Simulator(List<String> ips, int port, File walkFiles, File mibFolder) throws IOException {
+        this.mibReader = new MibReader(mibFolder);
         initAllAgent(ips, port, walkFiles);
     }
 
@@ -69,7 +70,8 @@ public class Simulator {
         for (SNMPAgent agent : this.agents) {
             String ipString = agent.getAddress().replace(".", "-");
             agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_NAME_OID, new OctetString(PREFIX + ipString)));
-            agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_SERIAL_OID, new OctetString(PREFIX + ipString)));
+            agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_SERIAL_CISCO_OID, new OctetString(PREFIX + ipString)));
+            agent.registerManagedObject(MOCreator.createReadOnly(DEVICE_SERIAL_JUNIPER_OID, new OctetString(PREFIX + ipString)));
         }
         LOGGER.warn("Done");
     }
@@ -86,7 +88,7 @@ public class Simulator {
             // Get back Value which is set
             LOGGER.warn("Testing device: " + agent.getAddressAndPort());
             LOGGER.warn("Name: " + client.getAsString(DEVICE_NAME_OID));
-            LOGGER.warn("Serial: " + client.getAsString(DEVICE_SERIAL_OID)); 
+            LOGGER.warn("Serial: " + client.getAsString(DEVICE_SERIAL_CISCO_OID)); 
         }
         LOGGER.warn("Done");
     }
@@ -109,6 +111,10 @@ public class Simulator {
                 fullLine = line;
 
                 if(mibReader.accept(variableBinding.getOid())) {
+                    if (variableBinding.getOid().startsWith(new OID(".1.3.6.1.2.1.2.2.1.1.1"))) {
+                        LOGGER.info("Stop");
+                    }
+//                    this.agents.forEach(agent -> agent.registerManagedObject(MOCreator.createReadOnly(variableBinding)));
                     if (isScalar(variableBinding)) {
                         //if table is not empty, means table data is complete, register the table
                         if (!tableData.isEmpty()) {

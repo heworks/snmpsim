@@ -411,11 +411,14 @@
   
     --  Conformance information 
      
-    ipForwardConformance OBJECT IDENTIFIER ::= { ipForward 5 }
+    ipForwardConformance  
+         OBJECT IDENTIFIER ::= { ipForward 5 } 
      
-    ipForwardGroups OBJECT IDENTIFIER ::= { ipForwardConformance 1 }
+    ipForwardGroups       
+         OBJECT IDENTIFIER ::= { ipForwardConformance 1 } 
           
-    ipForwardCompliances OBJECT IDENTIFIER ::= { ipForwardConformance 2 }
+    ipForwardCompliances  
+         OBJECT IDENTIFIER ::= { ipForwardConformance 2 } 
      
     --  Compliance statements 
      

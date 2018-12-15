@@ -4,5 +4,5 @@ deviceIPs=172.17.1.0/24,172.17.101.1/32
 dataDir=/root/dev/snmpsim
 #walk file name in the {dataDir}/walkFiles folder, only one file is supported
 deviceToSimulate=C3925.walk
-#mib file names in the {dataDir}/mibs folder
-mibsToSimulate=SNMPv2-SMI.my,CISCO-SMI.my,RFC1213-MIB.my,SNMPv2-MIB.my,IP-FORWARD-MIB.my,IP-MIB.my,CISCO-PROCESS-MIB.my,CISCO-MEMORY-POOL-MIB.my
+#mib files in the mibDir will be simulated even if they are inside another folder
+mibDir=/root/dev/snmpsim/mibs

@@ -30,7 +30,7 @@ public class SimulatorMain {
                 ipAddresses, 
                 applicationProperties.getSnmpPort(), 
                 applicationProperties.getWalkFile(),
-                applicationProperties.getMibFiles()
+                applicationProperties.getMibDir()
         );
 
         while(true) {}

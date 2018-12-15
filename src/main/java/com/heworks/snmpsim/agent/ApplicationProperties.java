@@ -23,7 +23,7 @@ public class ApplicationProperties {
     private static final String SNMP_PORT = "snmpPort";
     private static final String DEVICE_IPS = "deviceIPs";
     private static final String DEVICE_TO_SIMULATE = "deviceToSimulate";
-    private static final String MIBS_TO_SIMULATE = "mibsToSimulate";
+    private static final String MIB_DIR = "mibDir";
     private static final String DATA_DIR = "dataDir";
     private static final String WALK_FILE_FOLDER = "walkFiles";
     private static final String MIB_FOLDER = "mibs";
@@ -31,7 +31,7 @@ public class ApplicationProperties {
     private final String interfaceName;
     private final int snmpPort;
     private final List<String> ipRanges;
-    private final List<File> mibFiles;
+    private final File mibDir;
     private final File walkFile;
     private final File dataDir;
 
@@ -80,16 +80,11 @@ public class ApplicationProperties {
         this.ipRanges = Arrays.asList(ipRangeStrings); 
         LOGGER.info("device ips to simulate: " + this.ipRanges);
 
-        String mibFilesString = props.getProperty(MIBS_TO_SIMULATE);
-        if (mibFilesString == null || mibFilesString.isEmpty()) {
-            System.err.println("must specify the mib files to use!");
-            System.exit(1);
+        String mibDir = props.getProperty(MIB_DIR);
+        if (mibDir == null || mibDir.isEmpty()) {
+            LOGGER.info("must specify the mib directory!");
         }
-        String[] mibFiles = mibFilesString.split(",");
-        File mibFolder = new File(dataDir, MIB_FOLDER);
-        this.mibFiles = Arrays.asList(mibFiles).stream().map(fileName -> new File(mibFolder, fileName)).collect(Collectors.toList());
-        LOGGER.info("mibs to simulate: " + this.mibFiles);
-
+        this.mibDir = new File(mibDir);
         reader.close();
     }
 
@@ -105,12 +100,12 @@ public class ApplicationProperties {
         return this.ipRanges;
     }
 
-    public List<File> getMibFiles() {
-        return mibFiles;
-    }
-
     public File getWalkFile() {
         return walkFile;
+    }
+    
+    public File getMibDir() {
+        return mibDir;
     }
 
     public File getDataDir() {
